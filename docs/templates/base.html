@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-sidenav a {padding:20px}
+a {text-decoration: none}
+#searchField { font-size: medium}
+</style>
+
+<script>
+// Script to open and close sidenav
+//document.getElementById("searchfield").onfocus = function() {myFunction()};
+
+function hideLogo() {
+    $("#searchLogo").hide();
+}
+function showLogo() {
+    setTimeout(function () {
+    	$("#searchLogo").show();    
+    }, 200);
+}
+
+function w3_open() {	
+    document.getElementById("mySidenav").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+
+function test(){
+	
+	var string = $('#searchField').val();
+
+	$.ajax({
+		type: "POST",
+		url: "{% url "docs:geraDisplayDict" %}",
+	        data: JSON.stringify({string:string}),
+		success: function(response){
+			$("#profes").html(response);
+	        },
+       	});
+
+
+	
+}
+</script>
+
+<body>
+
+<!-- Sidenav (hidden by default) -->
+<nav class="w3-sidenav w3-card-2 w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:25%;min-width:200px" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" 
+  class="w3-closenav">Close Menu</a>
+  <a href="{% url "docs:index" %}">fpLattes</a></div>
+  <a href="#about" onclick="w3_close()">About</a>
+</nav> 
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge w3-padding-xlarge" style="max-width:1200px;margin:auto">
+	<div class="w3-opennav w3-left w3-hover-text-grey" onclick="w3_open()">☰</div>	
+	<div class="w3-right">
+	<!--<form id="searchForm"> -->
+		<input id="searchField" class="w3-input w3-animate-input w3-left" type="text"  onfocus="hideLogo()" onblur="showLogo()" style="width:50%" placeholder="pesquisa" onkeydown="test()" onkeyup="test()" >
+				<i id="searchLogo" class="material-icons w3-large w3-center">search</i>
+	<!--</form>-->
+	</div>
+	<div class="w3-center""><br> </div>	
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+   {% block body_block %}{% endblock %}  
+
+  <hr id="about">
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">
+    <h3>Guilherme Rodrigues e Tatiane Stivelman</h3>
+    <h4>Prof. Manuel Menezes de Oliveira Neto</h3>
+  </div>
+  <hr>
+
+</div>
+
+</body>
+</html>
+

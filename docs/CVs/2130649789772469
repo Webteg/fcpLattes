@@ -1,0 +1,2692 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Nicolas Maillard)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+				var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+      			var isChrome = !!window.chrome && !isOpera;
+      			
+				var filename = "css/impressao.css";
+				var fileref = document.createElement("link")
+		        fileref.setAttribute("rel", "stylesheet")
+		        fileref.setAttribute("type", "text/css")
+		        fileref.setAttribute("href", filename)
+		        
+		        if (typeof fileref!="undefined" && !isChrome)
+        			document.getElementsByTagName("head")[0].appendChild(fileref)
+        			
+      		});			  
+      		
+      		                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=2130649789772469" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4704374U9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4704374U9"><div class="infpessoa">
+<h2 class="nome">Nicolas Maillard</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/2130649789772469</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 06/10/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Secretário de Relações Internacionais da Universidade Federal do Rio Grande do Sul (UFRGS) desde Ago. 2013. 
+Possui doutorado em Sciences et Technologies de l'Information - Univ. Joseph Fourier (2001), mestrado em Mathématiques Appliquées et Parallélisme - Universite de Grenoble I (Univ. Joseph Fourier) (1996), e graduação em Matématicas Aplicadas e Informática - ENSIMAG, Grenoble, França (1996). 
+Efetuou um Pós-Doutorado de  6 meses na University of Pittsburgh, Estados Unidos, em 2012. 
+É professor adjunto da Universidade Federal do Rio Grande do Sul, onde tem lecionado Sistemas Operacionais I e Compiladores na graduação, além de duas disciplinas no Programa de Pós-Graduação em Ciência da Computação (Introdução ao Processamento de Alto Desempenho, e Projeto de Programas Paralelos). 
+Em nível de pesquisa, atua principalmente nos seguintes temas: processamento de alto desempenho, programação e algoritmos paralelos, computação em Clusters e Grids, MPI, escalonamento de processos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Nicolas Maillard</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MAILLARD, N.;Maillard, Nicolas</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande do Sul, Instituto de Informática, Programa de Pós Graduação Em Computação. <br class="clear" />Av. Bento Gonçalves, 9500 Campus do Vale - Bloco IV - Prédio do Gabinete dos Professores<br class="clear" />Agronomia<br class="clear" />91501970 - Porto Alegre, RS - Brasil - Caixa-postal: 15064<br class="clear" />Telefone: (51) 33086828<br class="clear" />Ramal: 6828<br class="clear" />Fax: (51) 33166832<br class="clear" />URL da Homepage: <a target="blank" href="http://www.inf.ufrgs.br/~nicolas">http://www.inf.ufrgs.br/~nicolas</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Sciences Et Technologies de l Information<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Université Joseph Fourier - Grenoble I, UJF, França.
+		
+	<br class="clear" />Título: Calcul Haute-Performance et Mécanique Quantique : Analyse des ordonnancements en temps et en mémoire, Ano de obtenção: 2001. <br class="clear" />Orientador: Pierre Valiron - Jean-Louis Roch. <br class="clear" />Bolsista do(a): Ministère de l'Éducation, des Sciences et Recherche. <br class="clear" />Palavras-chave: Processamento de Alto Desempenho; Computação em Agregados; Escalonamento; Equação de Schroedinger; Linpack benchmark; Programação Distribuída. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" />Setores de atividade: Desenvolvimento de Programas (Software) e Prestação de Serviços em Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Mathématiques Appliquées Parallélisme<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Université Joseph Fourier - Grenoble I, UJF, França.
+		
+	<br class="clear" />Título: Étude de la parallélisation de la corrélation électronique en chimie quantique,Ano de Obtenção: 1996.<br class="clear" />Orientador: Jean-Louis Roch.<br class="clear" />Palavras-chave: Processamento de Alto Desempenho; Computação em Agregados; Cálculo Científico; Química Quântica.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Processamento paralelo de alto desempenho. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Matématicas Aplicadas e Informática<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />École Nationale Supérieure d'Informatique et de Mathématiques Appliquées.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado">
+<h1>P&oacute;s-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Empresa Hp. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Processamento paralelo de alto desempenho. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação / Especialidade: Análise de Algoritmos e Complexidade de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />University of Pittsburgh.
+		
+	<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Processamento paralelo de alto desempenho. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Processamento paralelo de alto desempenho. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação / Especialidade: Modelos Analíticos e de Simulação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação / Especialidade: Análise de Algoritmos e Complexidade de Computação. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor adjunto, Enquadramento Funcional: Professor titular, Carga horária: 0</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: , Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Sistemas Operacionais<br class="clear" />Introdução à Programação<br class="clear" />Compiladores<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Computação, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Programação paralela para Processamento de Alto Desempenho<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2004 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Instituto de Informática, Departamento de Informática Aplicada. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Escalonamento para programas paralelos'>Escalonamento para programas paralelos</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista recém-doutor, Enquadramento Funcional: , Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/2002 - 12/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Faculdade de Informática, Departamento de Computação Aplicada. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Algoritmos Peer-to-Peer'>Algoritmos Peer-to-Peer</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Université Joseph Fourier, UJF, França.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: doutorando, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1997 - 12/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Processus Communicants, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Processus Communicants<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1996 - 12/1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Processus Communicants, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Processus communicants<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Institut National Polytechnique de Grenoble, INPG, França.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Professor titular, Carga horária: 6</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2000 - 04/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Algorithmique, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Algorithmique<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/1998 - 05/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Algorithmique, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Parallélisme<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Algoritmos Peer-to-Peer'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Algoritmos Peer-to-Peer</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: O trabalho nesta linha de pesquisa visa a estudar a eficiência da difusão de informações sobre os nós de uma rede Peer-to-peer (P2P). Para tanto está sendo desenvolvido um simulador genérico (para permitir a simulação, em um ambiente só, de vários algoritmos P2P) e eficiente (que possa chegar a simular centenas de milhares de nós na rede).. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação / Especialidade: Análise de Algoritmos e Complexidade de Computação. <br class="clear" />Palavras-chave: Peer-to-Peer Computing.</div>
+</div><a name='LP_Escalonamento para programas paralelos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Escalonamento para programas paralelos</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: O trabalho visa o estudo e a disponibilização de algoritmos de escalonamento para o cálculo de alto-desempenho em ambientes distribuídos:
+   - no caso estático, através do uso de algoritmos de particionamento de grafos usados dinamicamente para algoritmos iterativos.
+  - no caso dinâmico, através da construção on-line do grafo de fluxo de dados entre os processos.. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação / Especialidade: Análise de Algoritmos e Complexidade de Computação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Processamento paralelo de alto desempenho. <br class="clear" />Palavras-chave: Processamento Paralelo; Escalonamento.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_RECLIRS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">RECLIRS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto RECLIRS (apoiado pela FINEP, edital de Redes Estaduais em Meteorologia) trata do uso de Computação em Grade para a simulação hidrológica da bacia do rio Uruguai. Ele inclui uma série de parceiros: o INPE-Santa Maria, a UFSM, a UFRGS/IPH, a Fepagro, etc.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (2)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Nicolas Maillard - Integrante / Philippe Olivier Alexandre Navaux - Integrante / Haroldo Fraga de Campo Velho - Coordenador / Andrea Schwertner Charão - Integrante / Roberto Pinto Souto - Integrante / Carlos Tucci - Integrante / Walter Collischonn - Integrante / Daniel Allasia - Integrante.<br class="clear" />Financiador(es): Instituto Nacional de Pesquisas Espaciais - Cooperação / Financiadora de Estudos e Projetos - Auxílio
+										financeiro / Universidade Federal de Santa Maria - Cooperação.</div>
+</div><a name='PP_CAPES/DAAD PROBRAL'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CAPES/DAAD PROBRAL<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Colaboração com a TUB (Berlim) na área de:
+   - gereciamento de recursos em Clusters e Grids
+   - balanceamento de carga de aplicações paralelas.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (2)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Nicolas Maillard - Coordenador / César A F De Rose - Integrante / Philippe Olivier Alexandre Navaux - Integrante / Rodrigo da Rosa Righi - Integrante / Hans Ulrich Heiss - Integrante / Marcelo Veiga - Integrante / Tiago Ferreto - Integrante.<br class="clear" />Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio
+										financeiro / Deutscher Akademischer Austauschdienst - Auxílio
+										financeiro.Número de orientações: 1</div>
+</div><a name='PP_FINEP JAVA-WSPAD'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FINEP JAVA-WSPAD<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto FINEP JAVA-WSPAD tem por objetivo a disponibilização de serviços de Processamento de Alto Desempenho Distribuído artravés:
+   - do uso de uma plataforma simples e universal de acesso: um portal web e serviços web (para acessar, alocar e usar recursos de PAD tais como clusters);
+  - do uso de uma interface de programação simples para PAD: Java.
+
+O projeto está sendo desenvolvido em colaboração entre a UFRGS (Instituto de Informática) e a UFRJ (COPPE).. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (3)  / Mestrado profissional: (0)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Nicolas Maillard - Integrante / Alexandre Carissimi - Integrante / Philippe Olivier Alexandre Navaux - Coordenador / Claudio Amorim - Integrante.<br class="clear" />Financiador(es): Financiadora de Estudos e Projetos - Auxílio
+										financeiro / Hewlett Packard - Bolsa.</div>
+</div><a name='PP_Clumssy (HP)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Clumssy (HP)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto Clumssy (Cluster Management and Scheduling Systems) visa a desenvolver pesquisa sobre:
+1) a administração de clusters
+2) o escalonamento de programas MPI em ambientes distribuídos heterogêneos e dinâmicos.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Especialização: (0)  / Mestrado acadêmico: (2)  / Mestrado profissional: (0)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Nicolas Maillard - Integrante / Philippe Oliver Alexandre Navaux - Coordenador / Guilherme Peretti Pezzi - Integrante / Alexandre Carissimi - Integrante / Mauricio Pilla - Integrante / Rafael Bohrer Ávila - Integrante / Clarissa Marquezan - Integrante.<br class="clear" />Financiador(es): Hewlett Packard - Cooperação.<br class="clear" />Número de produções C, T & A: 2</div>
+</div><a name='PP_FINEP GBRAMS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FINEP GBRAMS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto FINEP GBRAMS tem por objetivo a montagem de uma grade computacional entre a UFRGS (Instituto de Informática), o INPE-CPTEC e o INPE-LAC, para execução do programa de previsão meteorológica BRAMS. O projeto prevê, em 12 meses, a instalação de 3 agregados (um em cada um dos centros envolvidos); cada parceiro instala um middleware diferente de gerenciamento de grade (OAR-CIGRI na UFRGS; GLOBUS no LAC; e OurGrid no CPTEC) em seu cluster e nos dos demais integrantes. Cada um dos 3 middlewares será, depois, testado para estressar o conceito de grade e ver as funcionalidades de cada um.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (2)  / Mestrado profissional: (0)  / Doutorado: (4) . <br class="clear" /><br class="clear" />Integrantes: Nicolas Maillard - Integrante / Tiaraju Asmuz Diverio - Integrante / Philippe Olivier Alexandre Navaux - Coordenador / Haroldo Fraga de Campo Velho - Integrante / Jairo Panetta - Integrante / Pedro Leite da Silva Dias - Integrante.<br class="clear" />Financiador(es): Financiadora de Estudos e Projetos - Auxílio
+										financeiro / Hewlett Packard - Bolsa.</div>
+</div><a name='PP_CPAD'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CPAD<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O CPAD é um projeto de pesquisa dedicado à administração e ao uso de máquinas agregadas (clusters) para o alto-desempenho.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (4)  / Especialização: (0)  / Mestrado acadêmico: (3)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Nicolas Maillard - Integrante / César De Rose - Coordenador.<br class="clear" />Financiador(es): Hewlett Packard - Cooperação.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_GlobeSud'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GlobeSud<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto Brafitec de intercâmbio de alunos de graduação com a França. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" /><br class="clear" />Integrantes: Nicolas Maillard - Coordenador / Philippe Alexandre Olivier Navaux - Integrante / Claudio Fernando Resin Geyer - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: IEEE Transactions on Parallel and Distributed Systems (1045-9219)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Parallel Computing</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento paralelo de alto desempenho. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação/Especialidade: Análise de Algoritmos e Complexidade de Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação/Especialidade: Modelos Analíticos e de Simulação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada/Especialidade: Análise Numérica. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Alemão</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prix de la Recherche de l'ENSIMAG, ENSIMAG. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS</div><div class="trab">Total de trabalhos:29</div><div class="cita">Total de citações:25</div><div class="detalhes">Nicolas Maillard&nbsp;&nbsp;Data:&nbsp;06/10/2013</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OSTHOFF, CARLA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1504/ijitcc.2012.050411" target="_blank"></a>OSTHOFF, CARLA ; BOITO, FRANCIELI ZANON ; KASSICK, RODRIGO VIROTE ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, LAÉRCIO LIMA</a> ; NAVAUX, PHILIPPE O.A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6412713158883137" target="_blank">Schepke, Claudio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0852675456496193" target="_blank">PANETTA, Jairo</a> ; GRUNMANN, PABLO JAVIER ; <b>Maillard, Nicolas</b> ; DIAS, PEDRO L. SILVA ; WALKO, ROBERT L. . Atmospheric models hybrid OpenMP/MPI implementation multicore cluster evaluation. International Journal of Information Technology, Communications and Convergence<sup><img id='20423217_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='20423217' /></sup>, v. 2, p. 212, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1504/ijitcc.2012.050411&issn=20423217&volume=2&issue=&paginaInicial=212&titulo=Atmospheric models hybrid OpenMP/MPI implementation multicore cluster evaluation&sequencial=1&nomePeriodico=International Journal of Information Technology, Communications and Convergence" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Schepke, Claudio</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10766-012-0235-4" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6412713158883137" target="_blank">Schepke, Claudio</a> ; <b>Maillard, Nicolas</b> ; SCHNEIDER, JOERG ; HEISS, HANS-ULRICH . Online Mesh Refinement for Parallel Atmospheric Models. International Journal of Parallel Programming<sup><img id='08857458_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='08857458' /></sup>, v. 41, p. 552-569, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10766-012-0235-4&issn=08857458&volume=41&issue=&paginaInicial=552&titulo=Online Mesh Refinement for Parallel Atmospheric Models&sequencial=2&nomePeriodico=International Journal of Parallel Programming" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rutzig, Mateus B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1155/2011/546962" target="_blank"></a>Rutzig, Mateus B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5446996798632062" target="_blank">Beck, Antonio C. S.</a> ; Madruga, Felipe ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7011183305034415" target="_blank">Alves, Marco A.</a> ; Freitas, Henrique C. ; <b>Maillard, Nicolas</b> ; Navaux, Philippe O. A. ; Carro, Luigi . Boosting Parallel Applications Performance on Applying DIM Technique in a Multiprocessing Environment. International Journal of Reconfigurable Computing (Print)<sup><img id='16877195_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16877195' /></sup>, v. 2011, p. 1-13, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1155/2011/546962&issn=16877195&volume=2011&issue=&paginaInicial=1&titulo=Boosting Parallel Applications Performance on Applying DIM Technique in a Multiprocessing Environment&sequencial=3&nomePeriodico=International Journal of Reconfigurable Computing (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOR, S. D. K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1504/IJHPSA.2011.040461" target="_blank"></a>MOR, S. D. K. ; <b>MAILLARD, N.</b> . Dynamic workload balancing deques for branch and bound algorithms in the message passing interface. International Journal of High Performance Systems Architecture (Print)<sup><img id='17516528_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17516528' /></sup>, v. 3, p. 77-86, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1504/IJHPSA.2011.040461&issn=17516528&volume=3&issue=&paginaInicial=77&titulo=Dynamic workload balancing deques for branch and bound algorithms in the message passing interface&sequencial=4&nomePeriodico=International Journal of High Performance Systems Architecture (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DA ROSA RIGHI, RODRIGO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1142/S0129626410000107" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2332604239081900" target="_blank">DA ROSA RIGHI, RODRIGO</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, LAÉRCIO LIMA</a> ; <b>Maillard, Nicolas</b> ; CARISSIMI, Alexandre ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a> . OBSERVING THE IMPACT OF MULTIPLE METRICS AND RUNTIME ADAPTATIONS ON BSP PROCESS RESCHEDULING. Parallel Processing Letters<sup><img id='01296264_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01296264' /></sup>, v. 20, p. 123-144, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1142/S0129626410000107&issn=01296264&volume=20&issue=&paginaInicial=123&titulo=OBSERVING THE IMPACT OF MULTIPLE METRICS AND RUNTIME ADAPTATIONS ON BSP PROCESS RESCHEDULING&sequencial=5&nomePeriodico=Parallel Processing Letters" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Schepke, Claudio</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10766-009-0113-x" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6412713158883137" target="_blank">Schepke, Claudio</a> ; <b>MAILLARD, N.</b> ; Navaux, Philippe O. A. . Parallel Lattice Boltzmann Method with Blocked Partitioning. International Journal of Parallel Programming<sup><img id='08857458_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='08857458' /></sup>, v. 37, p. 593-611, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10766-009-0113-x&issn=08857458&volume=37&issue=&paginaInicial=593&titulo=Parallel Lattice Boltzmann Method with Blocked Partitioning&sequencial=6&nomePeriodico=International Journal of Parallel Programming" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Lima, Joao V.F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1504/IJHPSA.2009.032025" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6266546896929217" target="_blank">Lima, Joao V.F.</a> ; <b>Maillard, Nicolas</b> . Online mapping of MPI-2 dynamic tasks to processes and threads. International Journal of High Performance Systems Architecture (Print)<sup><img id='17516528_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17516528' /></sup>, v. 2, p. 81-89, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1504/IJHPSA.2009.032025&issn=17516528&volume=2&issue=&paginaInicial=81&titulo=Online mapping of MPI-2 dynamic tasks to processes and threads&sequencial=7&nomePeriodico=International Journal of High Performance Systems Architecture (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RICHARD, Bruno</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		RICHARD, Bruno ; <b>MAILLARD, N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6703453792017497" target="_blank">ROSE, César A F de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4244223055606083" target="_blank">NOVAES, Reynaldo</a> . The I-Cluster Cloud: Distributed Management of Idle Resources for Intense Computing. Parallel Computing<sup><img id='01678191_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01678191' /></sup>, v. 31, p. 813-838, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01678191&volume=31&issue=&paginaInicial=813&titulo=The I-Cluster Cloud: Distributed Management of Idle Resources for Intense Computing&sequencial=8&nomePeriodico=Parallel Computing" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>JEANNEROD, Claude Pierre</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span>JEANNEROD, Claude Pierre ; <b>MAILLARD, N.</b> . Using Computer Algebra to Diagonalize some Kane Matrices. Journal of Physics. A, Mathematical and General<sup><img id='03054470_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03054470' /></sup>, London, v. 33, p. 2857-2870, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03054470&volume=33&issue=&paginaInicial=2857&titulo=Using Computer Algebra to Diagonalize some Kane Matrices&sequencial=9&nomePeriodico=Journal of Physics. A, Mathematical and General" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NAVAUX, Philippe Alexandre Olivier (Org.) ; <b>MAILLARD, N.</b> (Org.) ; OLIVEIRA, Márcio Ramos de (Org.) ; DIVERIO, Tiarajú Asmuz (Org.) . Anais do 2o Workshop de Processemanto Paralelo e Distribuído. Porto Alegre: SBC/UFRGS, 2004. v. 1. 190p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7170508510503648" target="_blank">Osthoff, C.</a> ; SOUTO, R. P. ; VILASBOAS, F. ; Grunmann, P. ; DIAS, Pedro Leite da Silva ; ZANON, F. B. ; Kassick, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, LAÉRCIO LIMA</a> ; Navaux, Philippe O. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6412713158883137" target="_blank">Schepke, Claudio</a> ; <b>MAILLARD, N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0852675456496193" target="_blank">PANETTA, Jairo</a> ; LOPES, P.  ; Walko, R. . Improving Atmospheric Model Performance on a Multi-Core Cluster System. In: Ismail Yucel. (Org.). Atmospheric Model Applications. 1ed.: InTech - Open Access Publisher, 2012, v. , p. 1-24. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2130649789772469" target="_blank">MAILLARD, N.</a></b>; CERA, Márcia Cristina . Programando Aplicações de Alto Desempenho: Estudo Avançado do MPI e OpenMP. In: Adenauer Corrêa Yamin;Carlos Amaral Holbig;Edson Luiz Padoin. (Org.). ERAD 2010 - 10a Escola Regional de Alto Desempenho. : , 2010, v. , p. 4-50. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/IPDPS.2013.66" target="_blank"></a>GAUTIER, THIERRY ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6266546896929217" target="_blank">Lima, Joao V.F.</a> ; <b>Maillard, Nicolas</b> ; RAFFIN, BRUNO . XKaapi: A Runtime System for Data-Flow Task Programming on Heterogeneous Architectures. In: 2013 IEEE International Symposium on Parallel &amp; Distributed Processing (IPDPS), 2013, Cambridge. 2013 IEEE 27th International Symposium on Parallel and Distributed Processing, 2013. p. 1299. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GAUTIER, T. ; LIMA, J. V. F. ; <b>Maillard, Nicolas</b> ; RAFFIN, BRUNO . Locality-Aware Work Stealing on Multi-CPU and Multi-GPU Architectures. In: 6th Programmability Issues for Heterogeneous Multicores (MULTIPROG), 2013, Berlin. 6th Programmability Issues for Heterogeneous Multicores (MULTIPROG), 2013. p. 51-62. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SBAC-PAD.2012.28" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6266546896929217" target="_blank">Lima, Joao V.F.</a> ; GAUTIER, THIERRY ; <b>Maillard, Nicolas</b> ; DANJEAN, VINCENT . Exploiting Concurrent GPU Operations for Efficient Work Stealing on Multi-GPUs. In: 2012 24th International Symposium on Computer Architecture and High Performance Computing (SBACPAD), 2012, New York. 2012 IEEE 24th International Symposium on Computer Architecture and High Performance Computing, 2012. p. 75. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/WSCAD-SSC.2012.13" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6412713158883137" target="_blank">Schepke, Claudio</a> ; <b>Maillard, Nicolas</b> . Exploring Multi-level Parallelism in Atmospheric Applications. In: 2012 13th Symposium on Computer Systems  XIII Simp sio de Sistemas Computacionais (WSCADSSC), 2012, Petropolis. 2012 13th Symposium on Computer Systems, 2012. p. 41. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SBAC-PAD.2011.14" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6412713158883137" target="_blank">SCHEPKE, C.</a> ; <b>MAILLARD, N.</b> ; SCHNEIDER, J. ; HEISS, H. U. . Why Online Dynamic Mesh Refinement is Better for Parallel Climatological Models. In: SBAC-PAD 2011, 2011, Vitória. 23rd International Symposium on Computer Architecture and High Performance Computing, 2011, Vitória, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7170508510503648" target="_blank">Osthoff, C.</a> ; Grunmann, P. ; ZANON, F. B. ; Kassick, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, LAÉRCIO LIMA</a> ; NAVAUX, Philippe Alexandre Olivier ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6412713158883137" target="_blank">SCHEPKE, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0852675456496193" target="_blank">PANETTA, Jairo</a> ; <b>MAILLARD, N.</b> ; DIAS, Pedro Leite da Silva ; Walko, R. . Improving Performance on Atmospheric Models through a Hybrid OpenMP/MPI Implementation.. In: International Symposium on Parallel and Distributed Processing with Applications, 2011, Busan. IEEE Ninth International Symposium on Parallel and Distributed Processing with Applications, 2011, 2011. p. 69-74. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZANON, F. B. ; Kassick, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, LAÉRCIO LIMA</a> ; Barbieri, N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6412713158883137" target="_blank">SCHEPKE, C.</a> ; NAVAUX, Philippe Alexandre Olivier ; <b>MAILLARD, N.</b> ; DENNEULIN, Y. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7170508510503648" target="_blank">Osthoff, C.</a> ; Grunmann, P. ; DIAS, Pedro Leite da Silva ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0852675456496193" target="_blank">PANETTA, Jairo</a> . I/O Performance of a Large Atmospheric Model using PVFS. In: Rencontres du Parallélisme, 2011, Saint-Malo. Rencontres Francophones du Parallélisme (RenPar'20), 2011, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-642-11322-2_26" target="_blank"></a>CERA, Márcia Cristina ; Georgiou, Y. ; RICHARD, O. ; <b>MAILLARD, N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a> . Supporting Malleability in Parallel Architectures with Dynamic CPUSETsMapping and Dynamic MPI.. In: 11th International Conference on Distributed Computing and Networking, 2010, Kalkuta. Distibuted Computing and Networking: 11th International Conference, ICDCN 2010. Berlin: Springer Verlag, 2010. v. 5935. p. 242-257. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ruztig, M. ; Madruga, F. ; Alvez. M. A. Z ; Cotas, H. ; BECK, A. C. ; <b>MAILLARD, N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . TLP  and ILP exploitation through Reconfigurable Multiprocessing System. In: 17th Reconfigurable Architectures Workshop  - IPDPS 2010, 2010, Atlanta. Proceedings of IPDPS 2010, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOR, S. D. K. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7011183305034415" target="_blank">Alves, Marco A.</a> ; LIMA, J. V. F. ; <b>MAILLARD, N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a> . Eficiência Energética em Computação de Alto Desempenho: Uma Abordagem em Arquitetura e Programação para Green Computing. In: SEMISH - XXXVII Seminário Integrado de Software e Hardware, 2010, 2010, Belo Horizonte. Anais do XXXVII Seminário Integrado de Software e Hardware, 2010., 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHNEIDER, J. ; GERD, J. ; HEISS, H. U. ; FERRETO, T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6703453792017497" target="_blank">ROSE, César A F de</a> ; RIGHI, Rodrigo da Rosa ; ROCHA, E. ; <b>MAILLARD, N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a> . Design of a Grid Workflow for a Climate Application. In: International Symposium on Computers and Communications, 2009, Sousse. Proceedings of ISCC´09, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOR, S. D. K. ; <b>MAILLARD, N.</b> . Melhorando o Desempenho de Algoritmos do Tipo Branch & Bound em MPI via Escalonador com Roubo Aleatório de Tarefas. In: WSCAD-SSC 2009 - X Simpósio em Sistemas Computacionais, 2009, São Paulo. X Simpósio em Sistemas Computacionais. Porto Alegre: SBC, 2009. p. 11-18. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-540-85451-7_95" target="_blank"></a>TRAOURE, D. ; ROCH, Jean Louis ; <b>MAILLARD, N.</b> ; GAUTIER, T. ; BERNARD, J. . Deque-Free Work-Optimal Parallel STL Algorithms. In: EUROPAR´08, 2008, Las Palmas de Gran Canaria. Proceedings of EUROPAR´08. Heidelberg: Springer, 2008. v. 5168. p. 887-897. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIMA, J. V. F. ; <b>MAILLARD, N.</b> . Controle da Granularidade com Threads em Programas MPI Dinâmicos. In: WSCAD-SSC 2008, 2008, Campo Grande. IX Simpósio em Sistemas Computacionais - WSCAD-SSC 2008. Porto Alegre: SBC, 2008. p. 125-133. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUTO, R. P. ; ÁVILA, Rafael Bohrer ; NAVAUX, Philippe Alexandre Olivier ; Py, M. ; <b>MAILLARD, N.</b> ; DIVERIO, Tiaraju Asmuz ; VELHO, Haroldo Fraga de Campo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1446664587151293" target="_blank">Stephany, S.</a> ; PRETO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0852675456496193" target="_blank">PANETTA, Jairo</a> ; RODRIGUES, E. ; ALMEIDA, E. . Processing Mesoscale Climatology in a Grid Environment. In: CCGRID'07, 2007, Rio de Janeiro. Proceedings of CCGRID'07.. Hoes Lane: IEEE Computer Society, 2007. p. 363-370. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6412713158883137" target="_blank">SCHEPKE, C.</a> ; <b>MAILLARD, N.</b> . Performance Improvement of the Parallel Lattice Boltzmann Method. In: SBAC-PAD, 2007, Gramado. 19th International Symposium on Computer Architecture and High Performance Computing. Hoes Lane: IEEE Computer Society, 2007. p. 71-78. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MATHIAS, Elton Nicoletti ; BAUDE, F. ; Cave, V. ; <b>MAILLARD, N.</b> . A Component-Oriented Support for Hierarchical MPI Programming on Multi-Cluster Grid Environments. In: SBAC-PAD, 2007, Gramado. 19th International Symposium on Computer Architecture and High Performance Computing. Hoes Lane: IEEE Computer Society, 2007. p. 135-142. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEZZI, Guilherme Peretti ; CERA, Márcia Cristina ; MATHIAS, Elton Nicoletti ; <b>MAILLARD, N.</b> ; NAVAUX, Philippe Alexandre Olivier . On-Line Scheduling of MPI-2 Programs with Hierarchical Work Stealing. In: SBAC-PAD, 2007, Gramado. 19th International Symposium on Computer Architecture and High Performance Computing. Hoes Lane: IEEE Computer Society, 2007. p. 247-254. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VEIGA, M. ; RIGHI, Rodrigo da Rosa ; <b>MAILLARD, N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a> . Impacto da Migração de Máquinas Virtuais de Xen na Execução de Programas MPI. In: Workshop em Sistemas Computacionais de Alto Desempenho, 2007, Gramado. VIII Workshop em Sistemas Computacionais de Alto Desempenho, 2007. p. 45-52. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CERA, Márcia Cristina ; PEZZI, Guilherme Peretti ; PILLA, Maurício ; <b>MAILLARD, N.</b> ; NAVAUX, Philippe . Scheduling Dynamically Spawned Processes in MPI-2. In: 12th Workshop on Job Scheduling Strategies for Parallel Processing, 2006, Saint-Malo. Job Scheduling Strategies for Parallel Processing, 12th International Workshop, JSSPP 2006, 2006. v. 4376. p. 33-45. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CERA, Márcia Cristina ; PEZZI, Guilherme Peretti ; MATTHIAS, Elton Nicoletti ; <b>MAILLARD, N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a> . Improving the Dynamic Creation of Processes in MPI-2. In: Euro-PVM/MPI, 2006, Bonn. Recent Advances in Parallel Virtual Machine and Message Passing Interface. Berlin: Springer, 2006. v. 4192. p. 247-255. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEZZI, Guilherme Peretti ; CERA, Márcia Cristina ; MATHIAS, Elton Nicoletti ; <b>MAILLARD, N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a> . Escalonamento Dinâmico de programas MPI-2 utilizando Divisão e Conquista. In: Workshop em Sistemas Computacionais de Alto Desempenho, 2006, Ouro Preto. VII Workshop em Sistemas Computacionais de Alto Desempenho. Ouro Preto: SBC, 2006. p. 71-78. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RIGHI, Rodrigo da Rosa ; SCHNORR, Lucas Mello ; MARQUEZAN, Clarissa ; <b>MAILLARD, N.</b> ; CARISSIMI, Alexandre ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a> . Portal ICE - Uso de Web Services para Atingir Extensibilidade no Gerenciamento de Múltiplos Agregados. In: Workshop em Sistemas Computacionais de Alto Desempenho, 2006, Ouro Preto. VII Workshop em Sistemas Computacionais de Alto Desempenho, 2006. p. 133-140. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VELHO, Haroldo Fraga de Campo ; PRETO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1446664587151293" target="_blank">Stephany, S.</a> ; RODRIGUES, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0852675456496193" target="_blank">PANETTA, Jairo</a> ; Almeida, E. ; SOUTO, R. P. ; NAVAUX, Philippe ; DIVERIO, Tiaraju ; <b>MAILLARD, N.</b> ; DIAS, Pedro Leite da Silva . Grid Computing for Mesoscale Climatology: Experimental Comparison of Three Platforms. In: WCGC'2006 - Workshop on Computational Grids and Clusters, 2006, Rio de Janeiro. vecpar'06: 6th International Conference on High Performance Computing in Computational Sciences., 2006. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARQUEZAN, Clarissa ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a> ; SCHNORR, Lucas Mello ; RIGHI, Rodrigo da Rosa ; <b>MAILLARD, N.</b> ; CARISSIMI, Alexandre da Silva . ICE: A Service Oriented Approach to Uniform Access and Management of Cluster Environments. In: International Workshop on Grid Testbeds (together with CCGRID'2006), 2006, Singapour. Proceedings of CCGRID'06, 2006. p. 1-8. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Rafael Ennes da ; <b>MAILLARD, N.</b> ; PEZZI, Guilherme Peretti ; DIVERIO, Tiaraju . Automatic Data-Flow Graph Generation of MPI Programs. In: SBAC-PAD, 2005, Rio de Janeiro. 17th Symposium on Computer Architecture and High Performance Computing. Rio: IEEE Computer Society, 2005. v. 1. p. 93-100. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BEAUMONT, Olivier ; DAOUDI, El Mostafa ; <b>MAILLARD, N.</b> ; MANNEBACK, Pierre ; ROCH, Jean Louis . Tradeoff to minimize extra-computations and stopping criterion tests for parallel iterative schemes. In: Parallel Matrix Algorithms and Applications (PMAA'04), 2004, Marseille. Proceedings of PMAA´04, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6703453792017497" target="_blank">ROSE, César A F de</a> ; BLANCO, F. ; <b>MAILLARD, N.</b> ; SAIKOSKI, K. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4244223055606083" target="_blank">NOVAES, Reynaldo</a> ; RICHARD, O. ; RICHARD, Bruno . The Virtual Cluster: a Dynamic Environment for Exploitation of Idle Network Resources. In: SBAC-PAD, 2002, Vitória, ES, Brasil. 14th symposium on Computer Architecture and High-Performance Computing (SBAC-PAD 2002). USA: IEEE Computer Society, 2002. p. 141-148. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2130649789772469" target="_blank">MAILLARD, N.</a></b>; DAOUDI, El Mostafa ; MANNEBACK, Pierre ; ROCH, Jean Louis . Contrôle amorti des synchronisations pour le test d´arrêt des méthodes itératives. In: RenPar´14, 2002, Hammamet. 14èmes rencontres francophones du parallélisme, 2002. p. 177-182. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERNANDES, L. G. ; <b>MAILLARD, N.</b> ; DENNEULIN, Y. . Parallelizing a Dense Matching Region Growing Algorithm for an Image Interpolation Application. In: International Conference on Parallel and Distributed Techniques and Applcations, 2001, Las Vegas. Proceedings of the International Conference on Parallel and Distributed Techniques and Applcations, 2001. v. 1. p. 491-495. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JEANNEROD, Claude Pierre ; <b>MAILLARD, N.</b> ; PFLUEGEL, Eckhard . An Algorithmic Approach for the Symmetric Perturbed Eigenvalue Problem - Application to the solution of the Schroedinger Equation by a kp-perturbation method. In: IMACS Conference on Applications of Computer Algebra, 1998, Praga, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2130649789772469" target="_blank">MAILLARD, N.</a></b>; Jean-Louis Roch ; Pierre Valiron . Parallélisation du Calcul ab-initio de l'énergie électronique par la méthode MP2. In: RenPar'9, 1997, Lausanne. RenPar'9 - 9èmes rencontres francophones du parallélisme. Lausanne: André Schiper, Denis Trystram, 1997. p. 45-49. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ArtigosAceitos"></a>Artigos  aceitos para publicação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7170508510503648" target="_blank">Osthoff, C.</a> ; ZANON, F. B. ; Kassick, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, LAÉRCIO LIMA</a> ; Navaux, Philippe O. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6412713158883137" target="_blank">Schepke, Claudio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0852675456496193" target="_blank">PANETTA, Jairo</a> ; Grunmann, P. ; <b>Maillard, Nicolas</b> ; DIAS, Pedro Leite da Silva ; Walko, R. . Atmospheric Models Hybrid OpenMP/MPI Implementation Multicore Cluster Evaluation. International Journal of Information Technology, Communications, and Convergence<sup><img id='20423225_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='20423225' /></sup>, 2012. </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		RICHARD, Bruno ; AUGERAT, Philippe ; <b>MAILLARD, N.</b> ; DERR, Simon ; MARTIN, Stéphane ; ROBERT, Céline . I-Cluster: Reaching Top500 Performance Using Mainstream Hardware. 2001. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2130649789772469" target="_blank">MAILLARD, N.</a></b>. Algoritmos Matriciais em Processamento de Alto Desempenho. 2005. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2130649789772469" target="_blank">MAILLARD, N.</a></b>. Programação de Alto Desempenho no Rio Grande do Sul: uma Pesquisa de Nível Internacional. 2004 (Palestras) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2130649789772469" target="_blank">MAILLARD, N.</a></b>. Ciência da Computação: rumo à excelência internacional - Estudo de casos: Programação de Alto Desempenho e Intercâmbios com a França. 2004 (Palestras) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2130649789772469" target="_blank">MAILLARD, N.</a></b>. O Top-500 e o Becnhmark High-Performance Linpack: um estudo de caso. 2003 (Palestras) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERNANDES, Paulo Henrique Lemelle; Dotti, F. L.; <b>MAILLARD, N.</b>; Sales, A. H. C..  Participação em banca de Dione Taschetto. Precisão de Simulações para Solução de Modelos Estocásticos. 2010. Dissertação (Mestrado em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6703453792017497" target="_blank">ROSE, César A F de</a>; FERNANDES, L. G.; <b>MAILLARD, N.</b>.  Participação em banca de Evandro Miguel Kuszera. Avaliando o Sistema de Arquivos Lustre com uso de Cargas de Trabalhos de Aplicações Paralelas. 2010. Dissertação (Mestrado em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; STEIN, Benhur de Oliveira; Pozzer, Cesar T..  Participação em banca de Guilherme Linck. Um componente para exploração da capacidade de processamento de GPUs em grades computacionais. 2010. Dissertação (Mestrado em Informática) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; BARBOSA, J. L. V.; YAMIN, A..  Participação em banca de Carlos Eduardo Benevides Bezerra. Lidando com Recursos Escassos e Heterogêneos em um Sistema Geograficamente Distribuído Atuando como Servidor de MMOG. 2009. Dissertação (Mestrado em Computação) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; Wagner, F. R.; MELO, A. C. M. A..  Participação em banca de Marco Antonio Zanata Alves. avaliação de Compartilhamento das Memórias Cache no Desempenho de Arquiteturas Multi-Core. 2009. Dissertação (Mestrado em Computação) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERNANDES, L. G.; <b>MAILLARD, N.</b>.  Participação em banca de Mauro Strelow Storch. Uma arquitetura para gerência de rede de máquinas virtuais com ênfase na emulação de sistemas distribuídos. 2008. Dissertação (Mestrado em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WEBER, T. S.; BARBOSA, J. L. V.; <b>MAILLARD, N.</b>.  Participação em banca de Gustavo Cestari Frainer. Espaço pervasivo de arquivos: habilitando acesso adaptativo e consciente da aplicação a arquivo em ambiente pervasivo. 2008. Dissertação (Mestrado em Computação) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WEBER, T. S.; NUNES, R. C.; <b>MAILLARD, N.</b>.  Participação em banca de Jeysonn Isaac Balbinot. Projeto de um Serviço Configurável de Detecção de Defeitos. 2007. Dissertação (Mestrado em Programa de Pós Graduação Em Ciência da Computação) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERNANDES, Paulo Henrique Lemelle; ROSE, César de; CLAUDIO, Dalcidio Moraes; <b>MAILLARD, N.</b>.  Participação em banca de Ricardo de Gasperi Presotto. Otimizações para a multiplicação Vetor-Descritor através do algoritmo Slice. 2006. Dissertação (Mestrado em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a>; <b>MAILLARD, N.</b>; CHARÃO, Andrea Schwertner.  Participação em banca de Guilherme Galante. Métodos Multigrid paralelos em malhas não estruturadas aplicados à simulação de dinâmica de fluídos computacional e transferência de calor. 2006. Dissertação (Mestrado em Programa de Pós Graduação Em Ciência da Computação) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERNANDES, L. G.; FERNANDES, Paulo Henrique Lemelle; Dotti, F. L.; <b>MAILLARD, N.</b>.  Participação em banca de Lucas Janssen Balso. Predição de Desempenho de Aplicações Paralelas para Máquinas Agregadas Utilizando Modelos Estocásticos. 2006. Dissertação (Mestrado em Ciência da Computação) - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Song, S. W.; Goldman, A.; <b>MAILLARD, N.</b>.  Participação em banca de Fabio Massaaki Katayama. O problema da troca de mensagens de diferentes tamanhos em redes multi-aglomerados. 2006. Dissertação (Mestrado em Ciências da Computação e Matemática Computacional) - Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; PASIN, Marcelo; Mattoso, M. L..  Participação em banca de Everton Hermann. Dinamismo de Servidores de Dados no Sistema de Arquivos dNFSp. 2006. Dissertação (Mestrado em Computação) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; CHARÃO, Andréa Schwertner; PASIN, Marcelo.  Participação em banca de Márcia Cristina Cera. Suporte ao Controle e Alocação Dinâmica de Computadores em Java. 2005. Dissertação (Mestrado em Programa de Pós Graduação Em Engenharia de Produçã) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; GEYER, Claudio Fernando Resin; AMORIM, Claudio Luis de.  Participação em banca de Rodrigo da Rosa Righi. Sistema Aldeia: Programação Paralela e Distribuída em Java sobre Infiniband e DECK.. 2005. Dissertação (Mestrado em Computação) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DIVERIO, Tiaraju Asmuz; <b>MAILLARD, N.</b>; STEIN, Benhur de Oliveira.  Participação em banca de Leonardo Alves de Paulo e Silva. Implementação da Biblioteca de Comunicação DECK sobre o padrão de protocolo de comunicação em nível de usuário VIA. 2005. Dissertação (Mestrado em Programa de Pós Graduação Em Ciência da Computação) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; DIVERIO, Tiaraju Asmuz; GEYER, Cláudio Fernando Resin; NAVAUX, Philippe Oliver Alexandre.  Participação em banca de Andre Luis Martinotto. Resolucao de Sistemas de Equacoes Lineares atraves de Metodos de Decomposicao de Dominio. 2004. Dissertação (Mestrado em Programa de Pós Graduação Em Ciência da Computação) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERNANDES, Paulo Henrique Lemelle; Dotti, F. L.; CLAUDIO, Dalcidio Moraes; <b>MAILLARD, N.</b>.  Participação em banca de Ricardo Melo Czeskster. Solução Numérica de Descritores Markovianos a partir de Reestrutração de Termos Tensoriais. 2010. Tese (Doutorado em Ciência da Computação)  - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Zorzo, A.; VINCENT, J.-M.; <b>MAILLARD, N.</b>.  Participação em banca de Thais Christina Webber. Redução do Impacto da Explosão do Espaço de Estados em Redes de Autômatos Estocásticos. 2009. Tese (Doutorado em Ciência da Computação)  - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEHAUT, J.; CARON, E.; Song, S. W.; <b>MAILLARD, N.</b>; NAVAUX, Philippe; HUARD, G..  Participação em banca de Lucas Mello Schnorr. Some Visualization Models applied to the Analysis of Parallel Applications. 2009. Tese (Doutorado em Informatique)  - Grenoble INP. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NAVAUX, Philippe; <b>MAILLARD, N.</b>; DIMURO, Graçaliz Pereira; REISER, Renata Hax Sander.  Participação em banca de Carlos Amaral Holbig. Ambiente de Alto Desempenho com Alta Exatidão para a Resolução de Problemas. 2005. Tese (Doutorado em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Maillard, Nicolas</b>; GEYER, Claudio Fernando Resin; CARISSIMI, Alexandre da Silva.  Participação em banca de Laércio Pilla. Arquiteturas Paralelas Heterogêneas. 2011. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; NAVAUX, Philippe Oliver Alexandre; Gaspary, L..  Participação em banca de Carlos Eduardo Bezerra. Um modelo de suporte Distribuído para jogos MMOG em cenários com recursos computacionais limitados. 2009. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; ZORZO, A.; FERNANDES, Paulo Henrique Lemelle.  Participação em banca de Thais Christina Webber dos Santos. Numerical Solutions for Stochastic Automata Networks: vector-descriptor product algorithms and perfect simulation. 2008. Exame de qualificação (Doutorando em Ciência da Computação)  - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0852675456496193" target="_blank">PANETTA, Jairo</a>; YAMIN, A..  Participação em banca de Rodrigo da Rosa Righi. Rebalanceamento dinâmico de carga em aplicações BSP através de Reescalonamento de processos. 2008. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GEYER, Claudio Fernando Resin; <b>MAILLARD, N.</b>.  Participação em banca de Eduardo Rocha. Processamento de Alto Desempenho em Meteorologia. 2008. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; ARAUJO, G. C. S.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a>.  Participação em banca de Henrique Cota de Freitas. Arquitetura de NoC Multi-Cluster Programável e Reconfigurável para Suporte a Padrões de Comunicação em Processadores Many-Core. 2008. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; SCHULTZE, B.; STEIN, Benhur de Oliveira.  Participação em banca de Lucas Mello Schnorr. Visualization Techniques to the Analysis of Parallel Applications. 2008. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; GEYER, Claudio Fernando Resin.  Participação em banca de Lucas Mello Schnorr. Monitoramento de Aplicações Grid. 2006. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; GEYER, Claudio Fernando Resin.  Participação em banca de Rodrigo da Rosa Righi. Exploracao da comunicacao em grades computacionais. 2006. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GRANVILLE, L.; CARISSIMI, Alexandre da Silva; <b>MAILLARD, N.</b>.  Participação em banca de Cristiano Costa. Infra-estrutura de Software na Computação Ubíqua. 2006. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; CHARÃO, Andréa Schwertner; SILVA, Roberto da; REISER, Renata Hax Sanda.  Participação em banca de Carlos Amaral Holbig. Resolução de Sistemas Lineares com Alta Exatidão em Agregados. 2005. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Porto. I. J.; Wagner, F. R.; <b>MAILLARD, N.</b>.  Participação em banca de Mônica Xavier Py. gerenciamento de recursos na computacao em grade. 2005. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MAILLARD, N.</b>; GEYER, Claudio; DIVERIO, Tiarajú Asmuz.  Participação em banca de Mozart Lemos de Siqueira. Processamento paralelo de imagens. 2004. Exame de qualificação (Doutorando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ritt, M.; <b>MAILLARD, N.</b>.  Participação em banca de Bruno Menegola.An External Memory Algorithm for Listing Triangles.
+							2010. Trabalho de Conclusão de Curso (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NAVAUX, Philippe; COMBA, J.; <b>MAILLARD, N.</b>.  Participação em banca de Danilo Fukuda Conrad.Análise da Hierarquia de Memórias em GPGPUs.
+							2010. Trabalho de Conclusão de Curso (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NAVAUX, Philippe Alexandre Olivier; <b>MAILLARD, N.</b>; OLIVEIRA, J. P..  Participação em banca de Francieli Zanon Boito.Estratégias para avaliação do desempenho do sistema de arquivos Lustre.
+							2009. Trabalho de Conclusão de Curso (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NAVAUX, Philippe Alexandre Olivier; <b>MAILLARD, N.</b>; Wagner, F. R..  Participação em banca de Maurício Machado Silveira.Simulação e Avaliação de Desempenho de Arquiteturas Paralelas Utilizando a ferramenta SIMICS.
+							2009. Trabalho de Conclusão de Curso (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COMBA, J.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a>; <b>MAILLARD, N.</b>.  Participação em banca de Laércio Lima Pilla.Análise de Desempenho da Arquitetura CUDA Utilizando os NAS Parallel Benchmarks.
+							2009. Trabalho de Conclusão de Curso (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NEDEL, L.; COMBA, J.; <b>MAILLARD, N.</b>.  Participação em banca de Marilena Maule.Aceleração da Deformação Interativa de Corpos Sólidos Usando GPU.
+							2009. Trabalho de Conclusão de Curso (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GEYER, Claudio Fernando Resin; <b>MAILLARD, N.</b>; BURIOL, L..  Participação em banca de Marcio Muccillo Sklar.Algoritmo Distribuído Detector de Ciclos Baseado em Busca e Difusão.
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NEDEL, L.; <b>MAILLARD, N.</b>; HEUSER, C..  Participação em banca de Leonardo Garcia Fischer.Otimização de Desempenho em Planejadores de Caminho Usando Campos Potenciais.
+							2008. Trabalho de Conclusão de Curso (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARISSIMI, Alexandre da Silva; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a>; <b>MAILLARD, N.</b>.  Participação em banca de Mairo Pedrini.Um Modelo de Arquitetura para Depuração em Ambientes Distribuídos.
+							2006. Trabalho de Conclusão de Curso (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARISSIMI, Alexandre da Silva; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, Philippe Olivier Alexandre</a>; <b>MAILLARD, N.</b>.  Participação em banca de Caciano dos Santos Machado.Análise da Biblioteca DECK com as Aplicações do NAS Parallel Benchmark.
+							2005. Trabalho de Conclusão de Curso (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARISSIMI, Alexandre da Silva; JOÃO NETTO,; <b>MAILLARD, N.</b>.  Participação em banca de Farlon Souto.Estudo de Sistemas Operacionais Embarcados: uma Abordagem Visando o Chip Dedicado de Kernel.
+							2005. Trabalho de Conclusão de Curso (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PASIN, Marcelo; MÜLLER, F. Martins; <b>MAILLARD, N.</b>.  Participação em banca de Hélio Antônio Miranda Silva.Estudo da Usabilidade da Linguagem Java em Aglomerados de Computadores.
+							2003. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEDEIROS, G. C. R.; <b>MAILLARD, N.</b>; AGOSTINI, L. V.. Concurso público para Professor Adjunto, área de Ciência da Computação.
+							2009. Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ERAD 2003.Encontro Regional de Alto Desempenho.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SBAC.SBAC.
+							2003. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ERAD 2002.Encontro Regional de Alto Desempenho.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NAVAUX, Philippe ; <b>Maillard, Nicolas</b> . 7o Fórum Brafitec. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2130649789772469" target="_blank">Maillard, Nicolas</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6703453792017497" target="_blank">ROSE, César A F de</a> . 11a Escola Regional de Alto Desempenho. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ferreira, R. ; <b>MAILLARD, N.</b> . XII Simpósio em Sistemas Computacionais de Alto Desempenho. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sílvio Ricardo Cordeiro. Auto-tuning e compiladores.
+						Início: 2011.
+						Dissertação (Mestrado em Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruno Gallina Apel. Programação Paralela Híbrida e Orientação a Objetos.
+						Início: 2010.
+						Dissertação (Mestrado profissional em Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4653681389421859'><img src='images/curriculo/logolattes.gif' /></a>Vinícius Garcia Pinto. Programação Paralela Híbrida.
+						Início: 2013. Tese (Doutorado em PPGC - Programa de Pós Graduação em Computação UFRGS)  - Universidade Federal do Rio Grande do Sul. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Vicente Lima. Programação Paralela Híbrida.
+						Início: 2010. Tese (Doutorado em Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9542244235130352'><img src='images/curriculo/logolattes.gif' /></a>Stéfano Drimon Kurz Mór. Paralelismo Multi-Nível.
+						Início: 2010. Tese (Doutorado em Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4653681389421859'><img src='images/curriculo/logolattes.gif' /></a>Vinícius Garcia Pinto. Programação Paralela Híbrida.
+							2011.
+						
+					Dissertação  (Mestrado em Computação)  - Universidade Federal do Rio Grande do Sul, . Orientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3728881230901653'><img src='images/curriculo/logolattes.gif' /></a>Marcelo Veiga. Migração de processos em MPI.
+							2009.
+						
+					Dissertação  (Mestrado em Programa de Pós Graduação Em Ciência da Computação)  - Universidade Federal do Rio Grande do Sul, . Orientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Lima. Programação paralela adaptativa com threads e MPI.
+							2009.
+						
+					Dissertação  (Mestrado em Programa de Pós Graduação Em Ciência da Computação)  - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cristian Castañeda. Refatoração de código em Fortran.
+							2009.
+						
+					Dissertação  (Mestrado em Computação)  - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alexandre Almeida. Programação paralela de aplicações numéricas.
+							2009.
+						
+					Dissertação  (Mestrado em Computação)  - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2137852895254283'><img src='images/curriculo/logolattes.gif' /></a>Fernando Abrahão Afonso. Interface MPI com C#.
+							2008.
+						
+					Dissertação  (Mestrado em Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9542244235130352'><img src='images/curriculo/logolattes.gif' /></a>Stéfano Drimon Kurz Mór. Escalonamento On-Line Eficiente de Programas Fork-Join Recursivos do Tipo Divisão e Conquista em MPI.
+							2008.
+						
+					Dissertação  (Mestrado em Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Claudio Schepke. Distribuição de Dados para Implementações Paralelas do Método de Lattice Boltzmann.
+							2007.
+						
+					Dissertação  (Mestrado em Programa de Pós Graduação Em Ciência da Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Coorientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael Ennes da Silva. Escalonamento estático de Programas MPI.
+							2006. 85 f.
+						
+					Dissertação  (Mestrado em Computação)  - Universidade Federal do Rio Grande do Sul, . Coorientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Peretti Pezzi. Escalonamento Workstealing de Programas Divisão & Conquista com MPI-2.
+							2006. 0 f.
+						
+					Dissertação  (Mestrado em Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Coorientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Elton Nicoletti Matthias. Uso de MPI em Grade Computacional.
+							2006. 0 f.
+						
+					Dissertação  (Mestrado em Programa de Pós Graduação Em Ciência da Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6439880514563167'><img src='images/curriculo/logolattes.gif' /></a>Gustavo Romano. Paralelização de um algoritmo de dinâmica molecular.
+							2006.
+						
+					Dissertação  (Mestrado em Programa de Pós Graduação Em Ciência da Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Márcia Cristina Cera.
+						Providing Adaptability to MPI Applications on Current Parallel Architectures.
+							2011. 0 f. Tese
+					 (Doutorado em Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Coorientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6412713158883137'><img src='images/curriculo/logolattes.gif' /></a>Claudio Schepke.
+						Paralelização Dinâmica de aplicações de alto desempenho.
+							2008. Tese
+					 (Doutorado em Computação)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Nicolas Maillard. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thiago Presa.
+							Uso de Máquinas Virtuais em Clusters Dinâmicos.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Nicolas Maillard.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Teixeira.
+							Convertindo CVs Lattes em LaTeX.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Nicolas Maillard.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe Vasconcellos.
+							Programação paralela com GPUs.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Nicolas Maillard.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ismael Stangherlini.
+							Compilação de programas C para arquiteturas NUMA.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Nicolas Maillard.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diego Morales.
+							Compilação de código C/MPI para C/Pthreads.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Nicolas Maillard.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Manuela Klanovicz Ferreira.
+							Estudo e Modelagem de Instruções de Virtualização Intel VT-x para Arquitetura MIPS R3000..
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Nicolas Maillard.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Stéfano Drimon Kurz Mór.
+							Programação adaptativa com MPI.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Nicolas Maillard.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Paulo Sergio Morandi Júnior.
+							Estudo da Parelelização de um Programa de Dinâmica de Fluídos.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Nicolas Maillard.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leandro Zulian Gallina.
+							Avaliação de Desempenho de OpenMP em Arquiteturas Paralelas.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Nicolas Maillard.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Peretti Pezzi.
+							Avaliação e Comparação de Algoritmos Peer-to-Peer através de Simulação.
+							2004. 71 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência de Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Nicolas Maillard.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 05/01/2017 &agrave;s 1:19:12</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=2130649789772469" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

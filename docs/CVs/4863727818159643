@@ -1,0 +1,2155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Paolo Rech)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+				var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+      			var isChrome = !!window.chrome && !isOpera;
+      			
+				var filename = "css/impressao.css";
+				var fileref = document.createElement("link")
+		        fileref.setAttribute("rel", "stylesheet")
+		        fileref.setAttribute("type", "text/css")
+		        fileref.setAttribute("href", filename)
+		        
+		        if (typeof fileref!="undefined" && !isChrome)
+        			document.getElementsByTagName("head")[0].appendChild(fileref)
+        			
+      		});			  
+      		
+      		                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4354402U2&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=4863727818159643" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4354402U2&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4354402U2"><div class="infpessoa">
+<h2 class="nome">Paolo Rech</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/4863727818159643</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 10/11/2016</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui mestrado em Ingegneria Informatica - Università Degli Studi Di
+Padova (2005) e doutorado em Scienza e Tecnologia dell'informazione
+pela Universidade de Pádua (2006). Tem experiência na área de
+Microeletrônica, com ênfase em os efeitos da radiação sobre sistemas
+computacionais e eletrônicos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Paolo Rech</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">RECH, P.;Rech, P.;Rech, Paolo</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande do Sul, Instituto de Informática, Departamento de Informática Aplicada. <br class="clear" />Av. Bento Gonçalves, 9500 - Campus do Vale - Bloco IV<br class="clear" />Agronomia<br class="clear" />91501970 - Porto Alegre, RS - Brasil<br class="clear" />Telefone: (51) 33087772</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em scienza e tecnologia dell'informazione<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade de Pádua, DIE UNIPD, Itália.
+		
+	<br class="clear" />Título: Soft Errors induced by Neutrons and Alpha Particles in System on Chips, Ano de obtenção: 2009. <br class="clear" />Orientador: Alessandro Paccagnella. <br class="clear" />Bolsista do(a): Ministero dell'Educazione e Ricerca, MER, Itália. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ingegneria Informatica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Università Degli Studi Di Padova, unipd, Itália.
+		
+	<br class="clear" />Título: Progetto, realizzazione e verifica sul campo di un sistema per il test di FPGA sotto fascio ionico e neutronico,Ano de Obtenção: 2006.<br class="clear" />Orientador: Alessandro Paccagnella.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado">
+<h1>P&oacute;s-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpel, LIRMM, França.
+		
+	<br class="clear" />Bolsista do(a): Centre national de la recherche scientifique, CNRS, França. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Liceo Scientifico Antonio Canova, istituto Cavanis, CAVANIS, Itália.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor vistante, Enquadramento Funcional: Professor de Matematica, Carga horária: 8</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpel, LIRMM, França.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista recém-doutor, Enquadramento Funcional: Post Doc, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Università degli Studi di Padova, UNIPD, Itália.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista recém-doutor, Enquadramento Funcional: estudante, Carga horária: 20</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Avalia&ccedil;&atilde;o Experimental e Mitiga&ccedil;&atilde;o dos Efeitos da Radia&ccedil;&atilde;o em Processadores Paralelos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação Experimental e Mitigação dos Efeitos da Radiação em Processadores Paralelos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto tem como objetivo inicial a caracterização da sensibilidade à radiação dos processadores paralelos modernos e o estudo de novas técnicas eficientes de tolerância a falhas. O estudo proposto é motivado do feito que atualmente os processadores paralelos são utilizados como aceleradores para cálculos de alto desempenho e estão se tornando útil em circuitos de controles em carros, aviões, satélites e missões espaciais. Para o sucesso do projeto o grupo de pesquisa vai aproveitar das colaborações já iniciadas com empresas internacionais como a NVIDIA, a INTEL e a AMD, e de laboratórios de física nuclear como o Los Alamos National Lab e o ISIS.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Paolo Rech - Coordenador / Ronaldo Ferreira - Integrante / Luigi Carro - Integrante / Gabriel Nazar - Integrante / NAVAUX, P. O. A. - Integrante / Daniel Oliveira - Integrante / Thiago Caberlon Santini - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_HAMLET'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">HAMLET<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: estudar os efeitos da radiação atmosférica em diferentes altitudes. Teste de radiação com balões estratosféricos, aceleradores de partículas, nos laboratórios e nas montanhas na Antártida (Estação CONCORDIA). <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Paolo Rech - Integrante / Galliere, Jean-Marc - Integrante / Girard, Patrick - Integrante / Wrobel, Frédéric - Coordenador / Saigne, Frédéric - Integrante / Pantel, Denis - Integrante / Chadoutaud, Pierre - Integrante / Cocquerez, Philippe - Integrante / Lacourty, Michel - Integrante / Lam-Trong, Thien - Integrante / Chatry, Christian - Integrante / Laplanche, Florent - Integrante / Pravossoudovitch Serge - Integrante.<br class="clear" />Financiador(es): TRAD - Auxílio
+										financeiro / ATMEL - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 9</div>
+</div><a name='PP_PRIN 2007'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PRIN 2007<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: estudo dos efeitos da radiação em FPGAs e lógica programável. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Paolo Rech - Integrante / Manuzzato, A. - Integrante / Paccagnella, A. - Coordenador / Appello, Davide - Integrante.<br class="clear" />Financiador(es): ST Microelectronics - Crolles - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 3</div>
+</div><a name='PP_EURO2000'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">EURO2000<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: concepção de um novo dispositivo reconfigurável que é resistente à radiação. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Paolo Rech - Integrante / Bagatin, M. - Integrante / Pontarelli, S. - Integrante / Paccagnella, Alessandro - Coordenador / Melchiori, Fabio - Integrante / Loparco, Domenico - Integrante / Appello, Davide - Integrante.<br class="clear" />Financiador(es): ST Microelectronics - Crolles - Auxílio
+										financeiro / M2000 - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_European Project on 8051'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">European Project on 8051<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: estudo dos efeitos da radiação em um System on Chip e techniques hardware para aumentar a resistência.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Paolo Rech - Integrante / Paccagnella, A. - Integrante / Grosso, Michelangelo - Integrante / Sonza Reorda, Matteo - Integrante / Appello, Davide - Integrante / Paolo Bernardi - Coordenador.<br class="clear" />Financiador(es): ST Microelectronics - Crolles - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 8</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: IEEE Transactions on Nuclear Science</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Electronic Testing</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: The Journal of Supercomputing (Dordrecht. Online)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: The Journal of Supercomputing (Dordrecht. Online)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Microelectronics Journal</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Outros / Área: Microeletrônica. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Italiano</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTINI, T. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2794148" target="_blank"></a>SANTINI, T. C. ; <b>Rech, Paolo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2764405324356669" target="_blank">G. Nazar</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7109472962613397" target="_blank">WAGNER, F. R.</a> . Beyond Cross-Section. ACM Transactions on Embedded Computing Systems<sup><img id='15399087_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15399087' /></sup>, v. 15, p. 1-16, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1145/2794148&issn=15399087&volume=15&issue=&paginaInicial=1&titulo=Beyond Cross-Section&sequencial=1&nomePeriodico=ACM Transactions on Embedded Computing Systems" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FERNANDEZ, F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span>FERNANDEZ, F. ; WEIGEL, L. ; JUNG, C. ; NAVAUX, P. O. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, LUIGI</a> ; <b>Rech, P.</b> . Evaluation of Histogram of Oriented Gradients Soft Errors Criticality for Automotive Applications. ACM Transactions on Architecture and Code Optimization<sup><img id='15443566_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15443566' /></sup>, v. PP, p. 1, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15443566&volume=PP&issue=&paginaInicial=1&titulo=Evaluation of Histogram of Oriented Gradients Soft Errors Criticality for Automotive Applications&sequencial=2&nomePeriodico=ACM Transactions on Architecture and Code Optimization" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTINI, THIAGO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2015.2513384" target="_blank"></a>SANTINI, THIAGO ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, LUIGI</a> ; RECH WAGNER, FLAVIO ; <b>Rech, Paolo</b> . Reliability Analysis of Operating Systems and Software Stack for Embedded Systems. IEEE Transactions on Nuclear Science<sup><img id='00189499_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 63, p. 2225-2232, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2015.2513384&issn=00189499&volume=63&issue=&paginaInicial=2225&titulo=Reliability Analysis of Operating Systems and Software Stack for Embedded Systems&sequencial=3&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TC.2015.2444855" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2529145496628766" target="_blank">OLIVEIRA, D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, L.</a> ; SANTINI, T. C. ; <b>RECH, P.</b> . Evaluation and Mitigation of Radiation-Induced Soft Errors in Graphics Processing Units. IEEE Transactions on Computers (Print)<sup><img id='00189340_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189340' /></sup>, p. 1-1, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TC.2015.2444855&issn=00189340&volume=&issue=&paginaInicial=1&titulo=Evaluation and Mitigation of Radiation-Induced Soft Errors in Graphics Processing Units&sequencial=4&nomePeriodico=IEEE Transactions on Computers (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>QUINN, HEATHER M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/tns.2015.2498313" target="_blank"></a>QUINN, HEATHER M. ; ROBINSON, W. ; <b>Rech, Paolo</b> ; AGUIRRE, M. ; BARNARD, A. ; DESOGUS, M. ; ENTRENA, L. ; GARCIA-VALDERAS, M. ; GUERTIN, S. ; KAELI, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; KIDDIE, B. ; SANCHEZ-CLEMENTE, A. ; Sonza Reorda, Matteo ; Sterpone, L. ; WIRTHLIN, M. . Using Benchmarks for Radiation Testing of Microprocessors and FPGAs. IEEE Transactions on Nuclear Science<sup><img id='00189499_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 62, p. 2547-2554, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/tns.2015.2498313&issn=00189499&volume=62&issue=&paginaInicial=2547&titulo=Using Benchmarks for Radiation Testing of Microprocessors and FPGAs&sequencial=5&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PILLA, L. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/tns.2015.2496381" target="_blank"></a>PILLA, L. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2529145496628766" target="_blank">OLIVEIRA, D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5628839635068698" target="_blank">LUNARDI, C. B.</a> ; NAVAUX, P. O. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, LUIGI</a> ; <b>Rech, Paolo</b> . Memory Access Time and Input Size Effects on Parallel Processors Reliability. IEEE Transactions on Nuclear Science<sup><img id='00189499_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 62, p. 2627-2634, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/tns.2015.2496381&issn=00189499&volume=62&issue=&paginaInicial=2627&titulo=Memory Access Time and Input Size Effects on Parallel Processors Reliability&sequencial=6&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PILLA, L. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2014.2301768" target="_blank"></a>PILLA, L. L. ; <b>Rech, P.</b> ; SILVESTRI, F. ; Frost, C. ; NAVAUX, P. O. A. ; REORDA, M. SONZA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Software-Based Hardening Strategies for Neutron Sensitive FFT Algorithms on GPUs. IEEE Transactions on Nuclear Science<sup><img id='00189499_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. PP, p. 1-7, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2014.2301768&issn=00189499&volume=PP&issue=&paginaInicial=1&titulo=Software-Based Hardening Strategies for Neutron Sensitive FFT Algorithms on GPUs&sequencial=7&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SABENA, D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>SABENA, D. ; Sonza Reorda, Matteo ; Sterpone, L. ; <b>Rech, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Evaluating the radiation sensitivity of GPGPU caches: New algorithms and experimental results. Microelectronics and Reliability<sup><img id='00262714_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00262714' /></sup>, v. PP, p. 1-8, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00262714&volume=PP&issue=&paginaInicial=1&titulo=Evaluating the radiation sensitivity of GPGPU caches: New algorithms and experimental results&sequencial=8&nomePeriodico=Microelectronics and Reliability" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rech, Paolo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10836-014-5456-6" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, Paolo</a></b>; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . GPUs Neutron Sensitivity Dependence on Data Type. Journal of Electronic Testing<sup><img id='09238174_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09238174' /></sup>, v. 30, p. 307-316, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10836-014-5456-6&issn=09238174&volume=30&issue=&paginaInicial=307&titulo=GPUs Neutron Sensitivity Dependence on Data Type&sequencial=9&nomePeriodico=Journal of Electronic Testing" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, DANIEL A. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/tns.2014.2362014" target="_blank"></a>OLIVEIRA, DANIEL A. G. ; <b>Rech, Paolo</b> ; QUINN, HEATHER M. ; FAIRBANKS, THOMAS D. ; MONROE, LAURA ; MICHALAK, SARAH E. ; ANDERSON-COOK, CHRISTINE ; NAVAUX, PHILIPPE O. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, LUIGI</a> . Modern GPUs Radiation Sensitivity Evaluation and Mitigation Through Duplication With Comparison. IEEE Transactions on Nuclear Science<sup><img id='00189499_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 61, p. 1-8, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/tns.2014.2362014&issn=00189499&volume=61&issue=&paginaInicial=1&titulo=Modern GPUs Radiation Sensitivity Evaluation and Mitigation Through Duplication With Comparison&sequencial=10&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SABENA, D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2014.2363358" target="_blank"></a>SABENA, D. ; Sterpone, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; <b>Rech, P.</b> . Reliability Evaluation of Embedded GPGPUs for Safety Critical Applications. IEEE Transactions on Nuclear Science<sup><img id='15581578_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15581578' /></sup>, v. 61, p. 3123-3129, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2014.2363358&issn=15581578&volume=61&issue=&paginaInicial=3123&titulo=Reliability Evaluation of Embedded GPGPUs for Safety Critical Applications&sequencial=11&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TARRILLO, JIMMY</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/tns.2014.2343259" target="_blank"></a>TARRILLO, JIMMY ; KASTENSMIDT, FERNANDA LIMA ; <b>Rech, Paolo</b> ; FROST, CHRISTOPHER ; VALDERRAMA, CARLOS . Neutron Cross-Section of N-Modular Redundancy Technique in SRAM-Based FPGAs. IEEE Transactions on Nuclear Science<sup><img id='00189499_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 61, p. 1558-1566, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/tns.2014.2343259&issn=00189499&volume=61&issue=&paginaInicial=1558&titulo=Neutron Cross-Section of N-Modular Redundancy Technique in SRAM-Based FPGAs&sequencial=12&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rech, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/tns.2014.2303855" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; NAZAR, G. L. ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . GPUs Reliability Dependence on Degree of Parallelism. IEEE Transactions on Nuclear Science<sup><img id='00189499_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 61, p. 1-1, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/tns.2014.2303855&issn=00189499&volume=61&issue=&paginaInicial=1&titulo=GPUs Reliability Dependence on Degree of Parallelism&sequencial=13&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rech, Paolo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2013.2286970" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, Paolo</a></b>; FAIRBANKS, T. ; QUINN, H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Threads Distribution Effects on Graphics Processing Units Neutron Sensitivity. IEEE Transactions on Nuclear Science<sup><img id='00189499_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 60, p. 4220-4225, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2013.2286970&issn=00189499&volume=60&issue=&paginaInicial=4220&titulo=Threads Distribution Effects on Graphics Processing Units Neutron Sensitivity&sequencial=14&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rech, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2013.2252625" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2898922194983536" target="_blank">AGUIAR, C.</a> ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . An Efficient and Experimentally Tuned Software-Based Hardening Strategy for Matrix Multiplication on GPUs. IEEE Transactions on Nuclear Science<sup><img id='00189499_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 60, p. 2797-2804, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2013.2252625&issn=00189499&volume=60&issue=&paginaInicial=2797&titulo=An Efficient and Experimentally Tuned Software-Based Hardening Strategy for Matrix Multiplication on GPUs&sequencial=15&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>G. Nazar</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2013.2261319" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2764405324356669" target="_blank">G. Nazar</a> ; <b>Rech, P.</b> ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Radiation and Fault Injection Testing of a Fine-Grained Error Detection Technique for FPGAs. IEEE Transactions on Nuclear Science<sup><img id='00189499_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. PP, p. 1, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2013.2261319&issn=00189499&volume=PP&issue=&paginaInicial=1&titulo=Radiation and Fault Injection Testing of a Fine-Grained Error Detection Technique for FPGAs&sequencial=16&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AZAMBUJA, J. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2013.2288305" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2507333666306110" target="_blank">AZAMBUJA, J. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2764405324356669" target="_blank">G. Nazar</a> ; <b>Rech, Paolo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; FAIRBANKS, T. ; QUINN, H. . Evaluating Neutron Induced SEE in SRAM-based FPGA Protected by Hardware- and Software-based Fault Tolerant Techniques. IEEE Transactions on Nuclear Science<sup><img id='00189499_17' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 59, p. 893-899, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2013.2288305&issn=00189499&volume=59&issue=&paginaInicial=893&titulo=Evaluating Neutron Induced SEE in SRAM-based FPGA Protected by Hardware- and Software-based Fault Tolerant Techniques&sequencial=17&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rech, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2012.2187218" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; Galliere, Jean-Marc ; Girard, Patrick ; Griffoni, A. ; Boch, J. ; Wrobel, Frédéric ; Saigne, Frédéric ; Dilillo, Luigi . Neutron-Induced Multiple Bit Upsets on Two Commercial SRAMs under Dynamic-Stress. IEEE Transactions on Nuclear Science<sup><img id='00189499_18' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. PP, p. 1-7, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2012.2187218&issn=00189499&volume=PP&issue=&paginaInicial=1&titulo=Neutron-Induced Multiple Bit Upsets on Two Commercial SRAMs under Dynamic-Stress&sequencial=18&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Griffoni, Alessio</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2011.2180924" target="_blank"></a>Griffoni, Alessio ; van Duivenbode, Jeroen ; Linten, Dimitri ; Simoen, Eddy ; <b>Rech, Paolo</b> ; Dilillo, Luigi ; Wrobel, Frédéric ; Verbist, Patrick ; Groeseneken, Guido . <![CDATA[Neutron-Induced Failure in Silicon IGBTs, Silicon Super-Junction and SiC MOSFETs]]>. IEEE Transactions on Nuclear Science<sup><img id='00189499_19' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, p. 1-6, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2011.2180924&issn=00189499&volume=&issue=&paginaInicial=1&titulo=<![CDATA[Neutron-Induced Failure in Silicon IGBTs, Silicon Super-Junction and SiC MOSFETs]]>&sequencial=19&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rech, Paolo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2011.2123114" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, Paolo</a></b>; Galliere, Jean-Marc ; Girard, Patrick ; Wrobel, Frédéric ; Saigne, Frédéric ; Dilillo, Luigi . <![CDATA[Impact of Resistive-Open Defects on SRAM Error Rate Induced by Alpha Particles and Neutrons]]>. IEEE Transactions on Nuclear Science<sup><img id='00189499_20' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 58, p. 855-861, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2011.2123114&issn=00189499&volume=58&issue=&paginaInicial=855&titulo=<![CDATA[Impact of Resistive-Open Defects on SRAM Error Rate Induced by Alpha Particles and Neutrons]]>&sequencial=20&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Wrobel, Frédéric</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2011.2136359" target="_blank"></a>Wrobel, Frédéric ; Vaille, Jean-Roch ; Pantel, Denis ; Dilillo, Luigi ; <b>Rech, Paolo</b> ; Galliere, Jean-Marc ; Touboul, Antoine ; Chadoutaud, Pierre ; Cocquerez, Philippe ; Lacourty, Michel ; Lam-Trong, Thien ; Autran, Jean-Luc ; Chatry, Christian ; Laplanche, Florent ; Azais, Bruno ; Saigne, Frédéric . <![CDATA[Experimental Characterization of an Atmospheric Environment With a Stratospheric Balloon]]>. IEEE Transactions on Nuclear Science<sup><img id='00189499_21' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 58, p. 945-951, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2011.2136359&issn=00189499&volume=58&issue=&paginaInicial=945&titulo=<![CDATA[Experimental Characterization of an Atmospheric Environment With a Stratospheric Balloon]]>&sequencial=21&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rech, Paolo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2010.2049119" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, Paolo</a></b>; Paccagnella, Alessandro ; Grosso, Michelangelo ; Sonza Reorda, Matteo ; Melchiori, Fabio ; Loparco, Domenico ; Appello, Davide . <![CDATA[Evaluating the Impact of DfM Library Optimizations on Alpha-induced SEU Sensitivity in a Microprocessor Core]]>. IEEE Transactions on Nuclear Science<sup><img id='00189499_22' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 57, p. 2098-2105, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2010.2049119&issn=00189499&volume=57&issue=&paginaInicial=2098&titulo=<![CDATA[Evaluating the Impact of DfM Library Optimizations on Alpha-induced SEU Sensitivity in a Microprocessor Core]]>&sequencial=22&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Violante, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2007.902349" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">RECH, P.</a></b>; Violante, M. ; Sterpone, L. ; Manuzzato, A. ; Gerardin, S. ; Bagatin, M. ; Paccagnella, A. ; Andreani, C. ; Gorini, G. ; Pietropaolo, A. ; Cardarilli, G. ; Pontarelli, S. ; Frost, C. . <![CDATA[A New Hardware/Software Platform and a New 1/E Neutron Source for Soft Error Studies: Testing FPGAs at the ISIS Facility]]>. IEEE Transactions on Nuclear Science<sup><img id='00189499_23' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00189499' /></sup>, v. 54, p. 1184-1189, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2007.902349&issn=00189499&volume=54&issue=&paginaInicial=1184&titulo=<![CDATA[A New Hardware/Software Platform and a New 1/E Neutron Source for Soft Error Studies: Testing FPGAs at the ISIS Facility]]>&sequencial=23&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; <b>RECH, P.</b> . FPGAs and Parallel Architectures for Aerospace Applications. 1. ed. Springer International Publishing Switzerland, 2015. 214p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3272427542645197" target="_blank">TAMBARA, L. A.</a> ; ALMEIDA, F. ; <b>RECH, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; BRUNI, G. ; Frost, C. . Measuring Failure Probability of Coarse and Fine Grain TMR Schemes in SRAM-based FPGAs Under Neutron-Induced Effects. Measuring Failure Probability of Coarse and Fine Grain TMR Schemes in SRAM-based FPGAs Under Neutron-Induced Effects. 1ed.: , 2015, v. 9040, p. 331-338. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; <b>RECH, P.</b> . Radiation Effects and Fault Tolerance Techniques for FPGAs and GPUs. Radiation Effects and Fault Tolerance Techniques for FPGAs and GPUs. 1ed.: Springer International Publishing Switzerland, 2015, v. 9040, p. 1-. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>. Soft-Error Effects on Graphics Processing Units. Soft-Error Effects on Graphics Processing Units. 1ed.: Springer International Publishing Switzerland, 2015, v. 9040, p. 1010-. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERNANDEZ, F. ; WEIGEL, L. ; JUNG, C. ; NAVAUX, P. O. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, LUIGI</a> ; <b>RECH, P.</b> . Radiation Sensitivity Evaluation of Pedestrian Detection Algorithm. In: Radiation and Its Effects on Components and Systems, 2016, Bremen. radecs 2016 proceedings, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5628839635068698" target="_blank">LUNARDI, C. B.</a> ; QUINN, H. ; MONROE, LAURA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2529145496628766" target="_blank">OLIVEIRA, D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, P.</a> ; <b>RECH, P.</b> . On the Error Criticality of Sorting Algorithms for HPC and Large Servers Applications. In: radiation and Its Effects on Components and Systems, 2016, bremen. radecs 2016 proceedings, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LINS, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3272427542645197" target="_blank">TAMBARA, L. A.</a> ; TONFAT, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; <b>RECH, P.</b> . Register File Criticality on Embedded Microprocessor Reliability. In: radiation and Its Effects on Components and Systems, 2016, bremen. radecs 2016 proceedings, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2529145496628766" target="_blank">OLIVEIRA, D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, L.</a> ; FERNANDEZ, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5628839635068698" target="_blank">LUNARDI, C. B.</a> ; NAVAUX, P. O. A. ; <b>RECH, P.</b> . Reliability Analysis of Modern HPC Parallel Accelerators. In: Silicon Errors in Logic System Effects, 2016, Austin. SELSE 2016, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTINI, T. C. ; BORCHERT, C. ; DIETRICH, C. ; HOFFMAN, M. ; SPNICZYK, O. ; LOHMANN, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7109472962613397" target="_blank">WAGNER, F. R.</a> ; <b>RECH, P.</b> . Evaluating the Radiation Reliability of Dependability-Oriented Real-Time Operating Systems. In: silicon Errors in Logic System Effects, 2016, austin. seLSE 2016, 2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		TIWARI, D. ; GUPTA, S. ; ROGERS, J. ; MAXWELL, D. ; <b>RECH, P.</b> ; VAZHKUDAI, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2529145496628766" target="_blank">OLIVEIRA, D.</a> ; LONDO, D. ; DEBARDELEBEN, N. ; NAVAUX, P. O. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; BLAND, A. . Understanding GPU Errors on Large-scale HPC Systems and the Implications for System Design and Operation. In: International Symposium on High-Performance Computer Architecture (HPCA), 2015, San Francisco. HPCA 2015 proceeding, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2529145496628766" target="_blank">OLIVEIRA, D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5628839635068698" target="_blank">LUNARDI, C. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; NAVAUX, P. O. A. ; <b>RECH, P.</b> . The Path to Exascale: Code Optimizations and Hardening Solutions Reliability. In: Fault Tolerance for HPC at eXtreme Scale (FTXS), 2015, Portland. Fault Tolerance for HPC at eXtreme Scale (FTXS) Workshop Proceedings, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DEBARDELEBEN, N. ; BLANCHARD, S. ; KAELI, D. ; <b>RECH, P.</b> . Field and Experimental Data on Soft Error in Large-Scale HPC Systems and Analysis of the Implication for Exascale System Design. In: IEEE VLSI Test Symposium (VTS), 2015, Napa. IEEE VLSI Test Symposium Proceedings, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTINI, T. C. ; <b>RECH, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7109472962613397" target="_blank">WAGNER, F. R.</a> . Exploiting Cache Conflicts to Reduce Radiation Sensitivity of Operating Systems on Embedded Systems. In: International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES), 2015, Amsterdam. International Conference on Compilers, Architecture, and Synthesis for Embedded Systems 2015 Proceeding, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTINI, T. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7109472962613397" target="_blank">WAGNER, F. R.</a> ; <b>Rech, Paolo</b> . Reliability Analysis of Operating Systems for Embedded SoC. In: Conference on RADIATION EFFECTS on COMPONENTS and SYSTEMS (RADECS), 2015, Moscow. RADECS 2015 Proceedings, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTINI, T. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7109472962613397" target="_blank">WAGNER, F. R.</a> ; <b>Rech, Paolo</b> . Reliability Analysis of Operating Systems for Embedded SoC. In: radecs, 2015, Moscow. radecs 2015 proceedings, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3272427542645197" target="_blank">TAMBARA, L. A.</a> ; <b>Rech, Paolo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> . Analyzing the Failure Impact of Using Hard- and Soft-cores in All Programmable SoC under Neutron-induced Upsets. In: Radecs 2015, 2015, Moscow. radecs 2015 proceedings, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2529145496628766" target="_blank">OLIVEIRA, D.</a> ; <b>Rech, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, L.</a> ; NAVAUX, P. O. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . GPGPUs ECC Efficiency and Efficacy. In: DFT, 2014, Amsterdam. DFT Proceedings, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, Paolo</a></b>; PILLA, L. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Impact of GPUs Parallelism Management on Safety-Critical and HPC Applications Reliability. In: IEEE Dependable Systems and Network (DSN), 2014, Atlanta. IEEE Dependable Systems and Network proceedings, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2529145496628766" target="_blank">OLIVEIRA, D.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5628839635068698" target="_blank">LUNARDI, C. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, L.</a> ; <b>Rech, Paolo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Radiation Sensitivity of High Performance Computing Applications on Kepler-Based GPGPUs. In: Fault Tolerance for HPC at eXtreme Scale (FTXS) Workshop, 2014, Atlanta. Fault Tolerance for HPC at eXtreme Scale (FTXS) Workshop Proceedings, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUNI, G. ; <b>Rech, Paolo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3272427542645197" target="_blank">TAMBARA, L. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2764405324356669" target="_blank">G. Nazar</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, R.</a> ; Paccagnella, A. . Power Dissipation Effects on 28nm FPGA-Based System on Chips Neutron Sensitivity. In: VLSI-SoC, 2014, Cancun. VLSI-SoC proceedings, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/ETS.2014.6847793" target="_blank"></a>SANTINI, T. C. ; <b>Rech, Paolo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2764405324356669" target="_blank">G. Nazar</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7109472962613397" target="_blank">WAGNER, F. R.</a> . Reducing Embedded Software Radiation-Induced Failures Through Cache Memories. In: IEEE European Test Symposium, 2014, Paderborn. IEEE European Test Symposium Proceedings, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3272427542645197" target="_blank">TAMBARA, L. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; <b>Rech, Paolo</b> ; Frost, C. . Decreasing FIT with Diverse Triple Modular Redundancy in SRAM-based FPGAs. In: DFT, 2014, A. DFT Proceedings, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TONFAT, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2507333666306110" target="_blank">AZAMBUJA, J. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2764405324356669" target="_blank">G. Nazar</a> ; <b>Rech, Paolo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9050311050537919" target="_blank">VARGAS, F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9385929088657818" target="_blank">BEZERRA, E.</a> ; Frost, C. . Analyzing the Influence of Voltage Scaling for Soft Errors in SRAM-based FPGAs. In: IEEE Mixed-Signal Test Workshop (IMSTW), 2014, Porto Alegre. IEEE Mixed-Signal Test Workshop (IMSTW) Proceedings, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.7873/DATE.2014.354" target="_blank"></a>GOMEZ, L. B. ; CAPELLO, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; DEBARDELEBEN, N. ; FANG, B. ; GURUMURTHI, S. ; PATTABIRAMAN, K. ; <b>Rech, Paolo</b> ; Sonza Reorda, Matteo . GPGPUs: How to Combine High Computational Power with High Reliability. In: Design, Automation and Test in Europe Conference and Exhibition (DATE), 2014, 2014, Dresden. Design, Automation and Test in Europe Conference and Exhibition (DATE), 2014, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3272427542645197" target="_blank">TAMBARA, L. A.</a> ; ALMEIDA, F. ; <b>Rech, Paolo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; BRUNI, G. ; Frost, C. ; QUINN, H. . Evaluating the Robustness of TMR Schemes with Different Levels of Granularity in SRAM-based FPGAs under Neutron-induced Effects. In: Nuclear and Space Radiation Effects Symposium, 2014, Paris. Nuclear and Space Radiation Effects Symposium, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2529145496628766" target="_blank">OLIVEIRA, D.</a> ; <b>Rech, Paolo</b> ; NAVAUX, P. O. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . DUPLICATION WITH COMPARISON FOR HIGH PERFORMANCE COMPUTING APPLICATIONS ON GRAPHICS PROCESSING UNITS. In: Nuclear and Space Radiation Effects Symposium, 2014, Paris. Nuclear and Space Radiation Effects Symposium, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUO, Y. ; SABENA, D. ; Sterpone, L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; <b>Rech, Paolo</b> . RELIABILITY EVALUATION OF EMBEDDED GPUS FOR SAFETY CRITICAL APPLICATIONS. In: Nuclear and Space Radiation Effects Symposium, 2014, Paris. Nuclear and Space Radiation Effects Symposium, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, Paolo</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; WANG, N. ; TSAI, T. ; HARI, S. K. S. ; KECKLER, S. . Measuring the Radiation Reliability of SRAM Structures in GPUs Designed for HPC. In: SELSE, 2014, Stanford. SELSE Proceedings, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Reducing the Code Degree Of Parallelism to Increase GPUs Reliability. In: SELSE, 2014, Stanford. SELSE Proceedings, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; TONFAT, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3947072395032242" target="_blank">BOTH, T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1745194055679908" target="_blank">WIRTH, G.</a> ; <b>Rech, Paolo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, R.</a> ; BENOIT, P. ; BRUGUIER, F. ; TORRES, L. . Analysing Aging and Voltage Scaling Impacts under Neutron-induced Soft Error Rate in SRAM-based Field Programmable Gate Arrays. In: ESREF, 2014, Berlin. ESREF 2014 Proceedings, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2898922194983536" target="_blank">AGUIAR, C.</a> ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Neutron Sensitivity of Integer and Floating Point Operations executed in GPUs. In: LATW, 2013, Cordoba. IEEE LATW proceeding, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Experimental Evaluation of Neutron-Induced Effects in Graphic Processing Units. In: SELSE, 2013, Stanford. SELSE Proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2898922194983536" target="_blank">AGUIAR, C.</a> ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Experimental Evaluation of Thread Distribution Effects on Multiple Output Errors in GPUs. In: European Test Symposium, 2013, Avignon. European Test Symposium Proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">RECH, P.</a></b>; FAIRBANKS, T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Threads Distribution Effects on GPU Neutron Sensitivity. In: NSREC, 2013, San Francisco. Transaction on Nuclear Science, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2507333666306110" target="_blank">AZAMBUJA, J. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2764405324356669" target="_blank">G. Nazar</a> ; <b>Rech, P.</b> ; FAIRBANKS, T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> . Combining Hardware- and Software-Based Techniques to Detect and Diagnose Neutron Induced Single Event Effects in SRAM-Based FPGA. In: NSREC, 2013, San Francisco. Transaction on Nuclear Science, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, L.</a> ; SILVESTRI, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Neutron Sensitivity and Software Hardening Strategies for Matrix Multiplication and FFT on Graphics Processing Units. In: The 3rd Workshop on Fault-Tolerance for HPC at Extreme Scale (FTXS 2013), 2013, New York. ACM FTXS 2013 Proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">RECH, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2020489905881170" target="_blank">PILLA, L.</a> ; SILVESTRI, F. ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Neutron Sensitivity and Hardening Strategies for Fast Fourier Transform on GPUs. In: RADECS 2013, 2013, Oxford. RADECS proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">RECH, P.</a></b>; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Degree of Parallelism Variations Effects on GPUs Reliability. In: RADECS 2013, 2013, Oxford. RADECS proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3272427542645197" target="_blank">TAMBARA, L. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2507333666306110" target="_blank">AZAMBUJA, J. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5757943714709622" target="_blank">CHIELLE, E.</a> ; ALMEIDA, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2764405324356669" target="_blank">G. Nazar</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; <b>RECH, P.</b> ; Frost, C. . Evaluating the Effectiveness of a Diversity TMR Scheme under Neutrons. In: RADECS 2013, 2013, Oxford. RADECS proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TARRILLO, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; <b>Rech, P.</b> ; VALDERRAMA, C. . Neutron Cross-section of N-Modular Redundancy Technique in SRAM-based FPGAs. In: RADECS 2013, 2013, Oxford. RADECS proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FORO, L. ; Touboul, Antoine ; Wrobel, Frédéric ; <b>RECH, P.</b> ; Dilillo, Luigi ; Frost, C. ; Saigne, Frédéric . Gate Voltage Contribution to Neutron-Induced SEB of Trench Gate Fieldstop IGBT. In: RADECS 2013, 2013, Oxford. RADECS proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TONFAT, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2507333666306110" target="_blank">AZAMBUJA, J. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2764405324356669" target="_blank">G. Nazar</a> ; <b>RECH, P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0207917332721514" target="_blank">BENFICA, J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9050311050537919" target="_blank">VARGAS, F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9385929088657818" target="_blank">BEZERRA, E.</a> . Analyzing the Influence of Voltage Scaling for Single Event Effects in SRAM-based FPGAs. In: RADECS 2013, 2013, Oxford. RADECS proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SABENA, D. ; Sonza Reorda, Matteo ; Sterpone, L. ; <b>Rech, Paolo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . On the evaluation of soft-errors detection techniques for GPGPUs. In: International Design & Test Symposium, 2013, Marrakesh. International Design & Test Symposium Proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">RECH, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2898922194983536" target="_blank">AGUIAR, C.</a> ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Neutron Sensitivity of Integer and Floating Point Operations Executed in GPUs. In: Latin American Test Workshop, 2013, Cordoba. Latin American Test Workshop Proceedings, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2898922194983536" target="_blank">AGUIAR, C.</a> ; Griffoni, A. ; SILVESTRI, M. ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Neutron-Induced Soft Errors in Graphic Processing Units. In: Nuclear and Space Radiation Effects Conference, 2012, Miami. NSREC DATA WORKSHOP PROCEEDINGS, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">RECH, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2898922194983536" target="_blank">AGUIAR, C.</a> ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Neutron-Induced Multiple Output Errors: a Reality on GPUs. In: MEDIAN, 2012, Annecy. ETS, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">RECH, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2898922194983536" target="_blank">AGUIAR, C.</a> ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Neutrons Radiation Test of Graphic Processing Units. In: IOLTS, 2012, Seitges. IOLTS 2012 proceedings, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2898922194983536" target="_blank">AGUIAR, C.</a> ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Experimental Evaluation of Software Hardening Techniques for GPUs. In: RADECS, 2012, Biarritz. RADECS 2012 proceedings, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2764405324356669" target="_blank">G. Nazar</a> ; <b>Rech, P.</b> ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Experimental Evaluation of an Efficient Error Detection Technique for FPGAs. In: RADECS, 2012, Biarritz. RADECS 2012 proceedings, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2898922194983536" target="_blank">AGUIAR, C.</a> ; Frost, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Neutron-Induced SER Dependence on Data Types in Graphic Processing Units. In: RADECS, 2012, Biarritz. RADECS 2012 DATAWORKSHOP proceedings, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3272427542645197" target="_blank">TAMBARA, L. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5265254209364825" target="_blank">LUBASZEWSKI, M. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6801014238742352" target="_blank">BALEN, T. R.</a> ; <b>Rech, P.</b> ; Frost, C. . Neutron-induced Single Event Upset in Mixed-Signal Flash-based FPGA. In: RADECS, 2012, Biarritz. RADECS 2012 proceedings, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/LATW.2011.5985904" target="_blank"></a>Dilillo, Luigi ; <b>Rech, P.</b> ; Galliere, Jean-Marc ; Girard, Patrick ; Wrobel, Frédéric ; Saigne, Frédéric . Neutron detection in atmospheric environment through static and dynamic SRAM-based test bench. In: 12th Latin American Test Workshop (LATW), 2011, 2011, Porto de Galinhas. 12th Latin American Test Workshop (LATW), 2011, 2011. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/IWASI.2011.6004712" target="_blank"></a>Dilillo, Luigi ; Bosio, A. ; <b>Rech, P.</b> ; Girard, Patrick ; Wrobel, Frédéric ; Saigne, Frédéric . Robust data collection and transfer framework for a distributed SRAM based neutron sensor. In: 4th IEEE International Workshop on Advances in Sensors and Interfaces (IWASI), 2011, 2011, Bari. 4th IEEE International Workshop on Advances in Sensors and Interfaces (IWASI), 2011, 2011. p. 176-180. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Griffoni, A. ; Duibenbode, J. ; Linten, D. ; Simoen, E. ; <b>Rech, P.</b> ; Dilillo, Luigi ; Wrobel, Frédéric ; Groeseneken, G. . Neutron-induced failure in super-junction, IGBT, and SiC power devices. In: RADECS 2011, 2011, Sevilla. Radiation and Its Effects on Components and Systems (RADECS), 2011 12th European Conference on, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; Galliere, Jean-Marc ; Girard, Patrick ; Griffoni, A. ; Boch, J. ; Wrobel, Frédéric ; Saigne, Frédéric ; Dilillo, Luigi . Neuton-induced Multiple Bit Upsets on dynamically-stressed commercial SRAM arrays. In: RADECS 2011, 2011, Sevilla. Radiation and Its Effects on Components and Systems (RADECS), 2011 12th European Conference on, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/IOLTS.2010.5560236" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; Grosso, Michelangelo ; Loparco, Domenico ; Appello, Davide ; Dilillo, Luigi ; Sonza Reorda, Matteo ; Paccagnella, A. . Analysis of root causes of alpha sensitivity variations on microprocessors manufactured using different cell layouts. In: IEEE 16th International On-Line Testing Symposium (IOLTS), 2010, 2010, Corfu. IEEE 16th International On-Line Testing Symposium (IOLTS), 2010, 2010. p. 29-34. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/ATS.2010.26" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; Bosio, A. ; Girard, Patrick ; Pravossoudovitch, S. ; VIRAZEL, A. ; Dilillo, Luigi . A Memory Fault Simulator for Radiation-Induced Effects in SRAMs. In: 19th IEEE Asian Test Symposium (ATS), 2010, 2010, Shanghai. 19th IEEE Asian Test Symposium (ATS), 2010, 2010. p. 100-105. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/VTS.2009.26" target="_blank"></a>Appello, Davide ; Bernardi, Paolo ; Gerardin, S. ; Grosso, Michelangelo ; Paccagnella, Alessandro ; <b>Rech, Paolo</b> ; Sonza Reorda, Matteo . DfT Reuse for Low-Cost Radiation Testing of SoCs: A Case Study. In: 27th IEEE VLSI Test Symposium, 2009. VTS '09., 2009, Santa Cruz. 27th IEEE VLSI Test Symposium, 2009. VTS '09., 2009. p. 276-281. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/IOLTS.2009.5195985" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, Paolo</a></b>; Gerardin, S. ; Paccagnella, A. ; Bernardi, Paolo ; Grosso, Michelangelo ; Sonza Reorda, Matteo ; Appello, Davide . Evaluating Alpha-induced soft errors in embedded microprocessors. In: 15th IEEE International On-Line Testing Symposium, 2009. IOLTS 2009., 2009, Sesimbra. 15th IEEE International On-Line Testing Symposium, 2009. IOLTS 2009., 2009. p. 69-74. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/RADECS.2009.5994699" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; Paccagnella, A. ; Grosso, Michelangelo ; Sonza Reorda, Matteo ; Melchiori, Fabio ; Appello, Davide . Evaluating the impact of DFM library optimizations on alpha-induced SEU sensitivity in a microprocessor core. In: 2009 European Conference on Radiation and Its Effects on Components and Systems (RADECS),, 2009, Bruges. 2009 European Conference on Radiation and Its Effects on Components and Systems (RADECS),, 2009. p. 481-488. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/DFT.2007.57" target="_blank"></a>Manuzzato, A. ; <b>Rech, P.</b> ; Gerardin, S. ; Paccagnella, A. ; Sterpone, L. ; Violante, M. . Sensitivity evaluation of TMR-hardened circuits to multiple SEUs induced by alpha particles in commercial SRAM-based FPGAs. In: 22nd IEEE International Symposium on Defect and Fault-Tolerance in VLSI Systems, 2007. DFT '07., 2007, Roma. 22nd IEEE International Symposium on Defect and Fault-Tolerance in VLSI Systems, 2007. DFT '07., 2007. p. 79-86. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gerardin, S. ; Bagatin, M. ; <b>Rech, P.</b> ; CESTER, A. ; Paccagnella, Alessandro . Exploiting a Low-Energy Accelerator to Test Commercial Electronics with Low-let Proton Beams. In: RADECS 2006, 2006, Athens. Radiation and Its Effects on Components and Systems (RADECS), 2006 European Conference on, 2006. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARVALHO, M. ; SABENA, D. ; Sonza Reorda, Matteo ; Sterpone, L. ; <b>Rech, Paolo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a> . Fault Injection in GPGPU Cores to Validate and Debug Robust Parallel Applications. In: IOLTS, 2014, Barcelona. IOLTS proceedings, 2014. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TEST.2010.5699302" target="_blank"></a>Galliere, Jean-Marc ; <b>Rech, Paolo</b> ; Girard, Patrick ; Dilillo, Luigi . A roaming memory test bench for detecting particle induced SEUs. In: IEEE International Test Conference (ITC), 2010, 2010, Austin. IEEE International Test Conference (ITC), 2010, 2010. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; Paccagnella, Alessandro ; Bernardi, Paolo ; Grosso, Michelangelo ; Sonza Reorda, Matteo ; Melchiori, Fabio ; Appello, Davide . Alpha-induced SEU Sensitivity Dependancies on Logic Cells Layout Configurations. In: ITC, 2009, AUSTIN. ITC proceeding, 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">RECH, P.</a></b>. Radiation Effects on Graphic Processing Units. 2013. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>. Guidelines for the Radiation Test of Electronic Devices and Systems. 2013. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">RECH, P.</a></b>. Neutron and Heavy Ion Tests. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4863727818159643" target="_blank">Rech, P.</a></b>; Galliere, Jean-Marc ; Wrobel, Frédéric ; Saigne, Frédéric ; Girard, Patrick ; Dilillo, Luigi . Dynamic-Stress Test for Efficient Evaluation of Neutron Impact on Commercial SRAMs. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1745194055679908" target="_blank">WIRTH, G.</a>; <b>RECH, P.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a>.  Participação em banca de CRISTIANO PEGORARO CHENET. ANÁLISE DE SOFT ERRORS EM CONVERSORES ANALÓGICO-DIGITAIS E MITIGAÇÃO UTILIZANDO REDUNDÂNCIA E DIVERSIDADE. 2015. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZORZO, A. F.; SCHNORR, L.; <b>Rech, Paolo</b>.  Participação em banca de Daniel Oliveira. Energy Consumption and Performance of HPC architectures for Exascale. 2014. Dissertação (Mestrado em PPGC - Programa de Pós Graduação em Computação UFRGS) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8544491643812450" target="_blank">CARRO, L.</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5265254209364825" target="_blank">LUBASZEWSKI, M. S.</a>; <b>Rech, Paolo</b>.  Participação em banca de Jimmy Fernando Tarrillo Olano. Analyzing the Use of n - Modular Redundancy in SRAM-based FPGA to Improve Reliability under Fault Accumulation and its Compromis. 2014. Tese (Doutorado em PGMICRO)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, C. E.; <b>Rech, Paolo</b>; COTA, E. F..  Participação em banca de Rafael Lerm. A Model-Based Design Space Exploration for Embedded Image Processing in Industrial Applications. 2014. Exame de qualificação (Mestrando em Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Latin American Test Workshop. Guidelines for the Radiation Test of Electronic Devices and Systems. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SELSE. Experimental Evaluation of Neutron-Induced Effects in Graphic Processing Units. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IOLTS. Neutrons Radiation Test of Graphic Processing Units. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nuclear and Space Radiation Effects Conference. Radiation Effects on Graphic Processing Units. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RADECS. An Efficient and Experimentally Tuned Software-Based Hardening Strategy for Matrix Multiplication on GPUs. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WERICE AEROESPACIAL. Neutron and Heavy Ion Tests. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nuclear and Space Radiation Effects Conference. Dynamic-Stress Test for Efficient Evaluation of Neutron Impact on Commercial SRAMs. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">19th IEEE Asian Test Symposium (ATS), 2010. A Memory Fault Simulator for Radiation-Induced Effects in SRAMs. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IEEE 16th International On-Line Testing Symposium (IOLTS), 2010. Analysis of root causes of alpha sensitivity variations on microprocessors manufactured using different cell layouts. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">15th IEEE International On-Line Testing Symposium, 2009. IOLTS 2009.. Evaluating Alpha-induced soft errors in embedded microprocessors. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2009 European Conference on Radiation and Its Effects on Components and Systems (RADECS),. Evaluating the impact of DFM library optimizations on alpha-induced SEU sensitivity in a microprocessor core. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">27th IEEE VLSI Test Symposium, 2009. VTS '09.. DfT Reuse for Low-Cost Radiation Testing of SoCs: A Case Study. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">22nd IEEE International Symposium on Defect and Fault-Tolerance in VLSI Systems, 2007. DFT '07.. Sensitivity evaluation of TMR-hardened circuits to multiple SEUs induced by alpha particles in commercial SRAM-based FPGAs. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; <b>Rech, Paolo</b> . FPGAs for Aerospace Applications (FASA 2014). 2014. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3853246006015128'><img src='images/curriculo/logolattes.gif' /></a>Fernando Fernande. tolerancia a falha em sistemas paralelos embarcados.
+						Início: 2015.
+						Dissertação (Mestrado profissional em PPGC - Programa de Pós Graduação em Computação UFRGS)  - Universidade Federal do Rio Grande do Sul. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">daniel alfonso gonçavez de Olivira. Fault Tolerance in Supercomputers.
+						Início: 2015. Tese (Doutorado em PPGC - Programa de Pós Graduação em Computação UFRGS)  - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caio Brigadão Lunardi. Realização de software para analise de datos esperimentais. Início: 2013. Iniciação científica (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thiago Caberlon Santini. Increasing Embedded Software Radiation Reliability Through Cache Memories.
+							2015.
+						
+					Dissertação  (Mestrado em Computação)  - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Coorientador: Paolo Rech. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thiago Caberlon Santini. Increasing Embedded Software Radiation Reliability Through Cache Memories.
+							2014.
+						
+					Dissertação  (Mestrado em Computação)  - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Coorientador: Paolo Rech. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Giovanni Bruni. Temperature Effects on Soft Error Rate Due to Atmospheric Neutrons on 28nm FPGAs.
+							2014.
+						
+					Dissertação  (Mestrado em Microeletrônica)  - Universidade Federal do Rio Grande do Sul, . Coorientador: Paolo Rech. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mohamed Amine Boussadi. Système de test pour évaluer les PIPS dans SRAMs.
+							2011.
+						
+					Dissertação  (Mestrado em Microelectronic)  - Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpel, . Coorientador: Paolo Rech. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Massimo Miotti. Test di SRAM.
+							2009.
+						
+					Dissertação  (Mestrado em Microelettronica)  - Università degli Studi di Padova, . Coorientador: Paolo Rech. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sergio Vendemmiati. Prototipazione di una scheda di test per FPGA sotto fascio di ioni e neutroni.
+							2008.
+						
+					Dissertação  (Mestrado em Microelettronica)  - Università degli Studi di Padova, . Coorientador: Paolo Rech. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 06/12/2016 &agrave;s 14:22:34</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=4863727818159643" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>
